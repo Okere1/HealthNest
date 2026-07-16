@@ -1,7 +1,7 @@
 const express = require("express");
-const healthRoutes = require("../modules/health");
+const { getHealth } = require("./health.controller");
 
 const router = express.Router();
-router.use(healthRoutes);
+router.get("/health", getHealth);
 
 module.exports = router;
