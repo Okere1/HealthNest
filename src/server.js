@@ -1,8 +1,14 @@
 const app = require("./app");
 const config = require("./config");
+const logger = require("./config/logger");
+const connectDatabase = require("./database/connection");
 
-const server = app.listen(config.port, () => {
-  console.log(`
+const startServer = async () => {
+  try {
+    await connectDatabase();
+
+    app.listen(config.port, () => {
+      logger.info(`
 =========================================
 Personal Health Companion API Started
 =========================================
@@ -11,7 +17,14 @@ Port        : ${config.port}
 API Version : v1
 =========================================
 `);
-});
+    });
+  } catch (error) {
+    logger.error(error);
+    process.exit(1);
+  }
+};
+
+startServer();
 
 process.on("SIGINT", () => {
   console.log("\nShutting down server...");

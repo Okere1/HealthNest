@@ -1,18 +1,19 @@
 // Load environment variables from .env
 require("dotenv").config();
-const { cleanEnv, str, port } = require("envalid");
+const { cleanEnv, str, port, bool } = require("envalid");
 
 // Validate and sanitize environment variables
 const env = cleanEnv(process.env, {
   NODE_ENV: str({ default: "development" }),
   PORT: port({ default: 5000 }),
-  MONGO_URI: str(), 
+  MONGO_URI: str(),
   JWT_SECRET: str(),
   JWT_EXPIRES_IN: str({ default: "1d" }),
   REFRESH_TOKEN_SECRET: str(),
   REFRESH_TOKEN_EXPIRES_IN: str({ default: "7d" }),
   CLIENT_URL: str({ default: "http://localhost:8081" }),
   LOG_LEVEL: str({ default: "info" }),
+  INCLUDE_RESPONSE_TIMESTAMP: bool({ default: true }),
 });
 
 // Export a structured configuration object
@@ -33,5 +34,8 @@ module.exports = {
   },
   log: {
     level: env.LOG_LEVEL,
+  },
+  response: {
+    includeTimestamp: env.INCLUDE_RESPONSE_TIMESTAMP,
   },
 };

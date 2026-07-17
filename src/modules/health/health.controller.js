@@ -1,19 +1,13 @@
 const config = require("../../config");
+const ApiResponse = require("../../common/utils/apiResponse");
 
-const getHealth = (req, res) => {
-  return res.status(200).json({
-    success: true,
+exports.getHealth = (req, res) => {
+  return ApiResponse.success(res, {
     message: "Personal Health Companion API is running",
     data: {
       status: "OK",
       version: "v1",
       environment: config.env,
-      timestamp: new Date().toISOString(),
     },
-    errors: null,
   });
-};
-
-module.exports = {
-  getHealth,
 };

@@ -5,8 +5,11 @@ const compression = require("compression");
 const morgan = require("morgan");
 
 const config = require("./config");
+const logger = require("./config/logger");
+
 const routes = require("./routes");
 const errorHandler = require("./common/middlewares/errorHandler");
+const ApiResponse = require("./common/utils/apiResponse");
 
 const app = express();
 
@@ -30,8 +33,21 @@ app.use(
 // Compress response bodies
 app.use(compression());
 
-// HTTP request logger
-app.use(morgan("dev"));
+/**
+ * HTTP Request Logging
+ *
+ * Morgan formats the request.
+ * Winston decides where to write it.
+ */
+app.use(
+  morgan("combined", {
+    stream: {
+      write: (message) => {
+        logger.http(message.trim());
+      },
+    },
+  }),
+);
 
 // Parse incoming JSON requests
 app.use(express.json());
@@ -54,11 +70,8 @@ app.use("/api/v1", routes);
  */
 
 app.use((req, res) => {
-  return res.status(404).json({
-    success: false,
+  return ApiResponse.notFound(res, {
     message: `Cannot ${req.method} ${req.originalUrl}`,
-    data: null,
-    errors: null,
   });
 });
 
