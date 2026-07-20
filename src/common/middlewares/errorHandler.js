@@ -1,7 +1,7 @@
 const logger = require("../../config/logger");
 const config = require("../../config");
 const ApiResponse = require("../utils/apiResponse");
-const { AppError } = require("../errors");
+const { AppError, ValidationError } = require("../errors");
 const HTTP_STATUS = require("../constants/httpStatus");
 
 const errorHandler = (err, req, res, next) => {
@@ -16,7 +16,26 @@ const errorHandler = (err, req, res, next) => {
   // Determine response message
   const message = isOperational ? err.message : "Internal Server Error";
 
-  // Log full error details
+  /**
+   * ===========================================
+   * Sanitize Request Body Before Logging
+   * ===========================================
+   */
+  const requestBody = { ...req.body };
+
+  if (requestBody.password) {
+    requestBody.password = "[REDACTED]";
+  }
+
+  if (requestBody.refreshToken) {
+    requestBody.refreshToken = "[REDACTED]";
+  }
+
+  /**
+   * ===========================================
+   * Log Full Error Details
+   * ===========================================
+   */
   logger.error({
     name: err.name,
     message: err.message,
@@ -25,17 +44,30 @@ const errorHandler = (err, req, res, next) => {
     url: req.originalUrl,
     ip: req.ip,
     userAgent: req.get("User-Agent"),
+    body: requestBody,
     stack: err.stack,
   });
 
-  // Build error payload
-  const errors =
-    config.env === "development"
-      ? {
-          name: err.name,
-          stack: err.stack,
-        }
-      : null;
+  /**
+   * ===========================================
+   * Response Errors
+   * ===========================================
+   */
+
+  let errors = null;
+
+  // Return field-level validation errors
+  if (err instanceof ValidationError) {
+    errors = err.errors;
+  }
+
+  // For unexpected errors, expose stack only in development
+  if (!isOperational && config.env === "development") {
+    errors = {
+      name: err.name,
+      stack: err.stack,
+    };
+  }
 
   return ApiResponse.failure(res, {
     statusCode,

@@ -1,0 +1,54 @@
+LoginRequest:
+  type: object
+
+  required:
+    - email
+    - password
+
+  properties:
+    email:
+      type: string
+      format: email
+      example: promise@example.com
+
+    password:
+      type: string
+      format: password
+      example: Password@123
+
+LoginResponse:
+  type: object
+
+  properties:
+    success:
+      type: boolean
+      example: true
+
+    message:
+      type: string
+      example: Login successful.
+
+    data:
+      type: object
+
+      properties:
+        user:
+          $ref: "./user.yaml#/User"
+
+        accessToken:
+          type: string
+
+        refreshToken:
+          type: string
+
+    errors:
+      nullable: true
+      example: null
+
+    meta:
+      nullable: true
+      example: null
+
+    timestamp:
+      type: string
+      format: date-time

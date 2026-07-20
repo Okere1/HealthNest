@@ -1,0 +1,15 @@
+summary: Registration Successful
+
+value:
+  success: true
+  message: User registered successfully.
+  data:
+    id: "686eb58c1d93afefb1287645"
+    firstName: Promise
+    lastName: Okere
+    email: promise@example.com
+    role: user
+
+  errors: null
+  meta: null
+  timestamp: "2026-07-20T15:22:30.000Z"

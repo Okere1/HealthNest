@@ -1,0 +1,93 @@
+ApiResponse:
+  type: object
+
+  properties:
+    success:
+      type: boolean
+      example: true
+
+    message:
+      type: string
+      example: Request completed successfully.
+
+    data:
+      nullable: true
+
+    errors:
+      nullable: true
+
+    meta:
+      nullable: true
+
+    timestamp:
+      type: string
+      format: date-time
+      example: "2026-07-20T13:15:25.345Z"
+
+ErrorResponse:
+  type: object
+
+  properties:
+    success:
+      type: boolean
+      example: false
+
+    message:
+      type: string
+      example: Validation failed.
+
+    data:
+      nullable: true
+      example: null
+
+    errors:
+      type: object
+
+      example:
+        email:
+          - Email is required.
+        password:
+          - Password must be at least 8 characters.
+
+    meta:
+      nullable: true
+      example: null
+
+    timestamp:
+      type: string
+      format: date-time
+
+HealthData:
+  type: object
+
+  properties:
+    status:
+      type: string
+      example: healthy
+
+HealthResponse:
+  type: object
+
+  properties:
+    success:
+      type: boolean
+      example: true
+
+    message:
+      type: string
+      example: API is running.
+
+    data:
+      $ref: "#/HealthData"
+
+    errors:
+      nullable: true
+      example: null
+
+    meta:
+      nullable: true
+      example: null
+
+    timestamp:
+      type: string
+      format: date-time

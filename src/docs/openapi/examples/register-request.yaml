@@ -1,0 +1,7 @@
+summary: Register User
+
+value:
+  firstName: Promise
+  lastName: Okere
+  email: promise@example.com
+  password: Password@123

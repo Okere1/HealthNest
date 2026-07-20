@@ -10,6 +10,10 @@ const logger = require("./config/logger");
 const routes = require("./routes");
 const errorHandler = require("./common/middlewares/errorHandler");
 const ApiResponse = require("./common/utils/apiResponse");
+const swaggerUi = require("swagger-ui-express");
+const openApiSpec = require("./docs");
+
+console.log(openApiSpec.paths);
 
 const app = express();
 
@@ -54,6 +58,18 @@ app.use(express.json());
 
 // Parse URL encoded payloads
 app.use(express.urlencoded({ extended: true }));
+
+/**
+ * ===========================================
+ * Swagger Documentation
+ * ===========================================
+ */
+
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(openApiSpec));
+
+app.get("/api-docs.json", (req, res) => {
+  res.json(openApiSpec);
+});
 
 /**
  * ===========================================

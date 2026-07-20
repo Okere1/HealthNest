@@ -39,8 +39,6 @@ const login = async (payload) => {
 
   const accessToken = generateAccessToken({
     userId: user._id,
-    email: user.email,
-    role: user.role,
   });
 
   const refreshToken = generateRefreshToken({

@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "bundle-docs": "redocly bundle src/docs/openapi/openapi.yaml -o src/docs/openapi.bundle.yaml"
   },
   "keywords": [],
   "author": "",
@@ -27,12 +28,14 @@
     "morgan": "^1.11.0",
     "ms": "^2.1.3",
     "node-cron": "^4.6.0",
-    "swagger-jsdoc": "^6.3.0",
     "swagger-ui-express": "^5.0.1",
     "uuid": "^14.0.1",
-    "winston": "^3.19.0"
+    "winston": "^3.19.0",
+    "yaml": "^2.9.0",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
+    "@redocly/cli": "^2.39.0",
     "eslint": "^10.7.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.6",

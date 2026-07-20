@@ -1,0 +1,91 @@
+login:
+  post:
+    tags:
+      - Authentication
+
+    summary: Login
+
+    description: |
+      Authenticates a user and returns
+      an Access Token and Refresh Token.
+
+    operationId: login
+
+    requestBody:
+      required: true
+
+      content:
+        application/json:
+          schema:
+            $ref: "../schemas/auth.yaml#/LoginRequest"
+
+          example:
+            email: promise@example.com
+            password: Password@123
+
+    responses:
+      "200":
+        description: Login successful.
+
+        content:
+          application/json:
+            schema:
+              $ref: "../schemas/auth.yaml#/LoginResponse"
+
+            example:
+              success: true
+              message: Login successful.
+
+              data:
+                user:
+                  id: 686eb58c1942547e95ce5e61
+                  firstName: Promise
+                  lastName: Okere
+                  email: promise@example.com
+                  role: user
+
+                accessToken: eyJhbGc...
+                refreshToken: eyJhbGc...
+
+              errors: null
+              meta: null
+              timestamp: "2026-07-20T14:32:10.000Z"
+
+me:
+  get:
+    tags:
+      - Authentication
+
+    summary: Get Current User
+
+    description: |
+      Returns the currently authenticated user.
+
+    operationId: getCurrentUser
+
+    security:
+      - bearerAuth: []
+
+    responses:
+      "200":
+        description: Authenticated user returned successfully.
+
+        content:
+          application/json:
+            schema:
+              $ref: "../schemas/common.yaml#/ApiResponse"
+
+            example:
+              success: true
+              message: Authenticated successfully.
+
+              data:
+                id: 686eb58c1942547e95ce5e61
+                firstName: Promise
+                lastName: Okere
+                email: promise@example.com
+                role: user
+
+              errors: null
+              meta: null
+              timestamp: "2026-07-20T14:32:10.000Z"

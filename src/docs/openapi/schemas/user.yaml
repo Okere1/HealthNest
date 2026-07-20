@@ -1,0 +1,84 @@
+RegisterRequest:
+  type: object
+
+  required:
+    - firstName
+    - lastName
+    - email
+    - password
+
+  properties:
+    firstName:
+      type: string
+      example: Promise
+
+    lastName:
+      type: string
+      example: Okere
+
+    email:
+      type: string
+      format: email
+      example: promise@example.com
+
+    password:
+      type: string
+      format: password
+      example: Password@123
+
+User:
+  type: object
+
+  properties:
+    id:
+      type: string
+      example: 686eb58c1942547e95ce5e61
+
+    firstName:
+      type: string
+
+    lastName:
+      type: string
+
+    email:
+      type: string
+      format: email
+
+    role:
+      type: string
+      example: user
+
+    createdAt:
+      type: string
+      format: date-time
+
+    updatedAt:
+      type: string
+      format: date-time
+
+RegisterSuccessResponse:
+  type: object
+
+  properties:
+    success:
+      type: boolean
+      example: true
+
+    message:
+      type: string
+      example: User registered successfully.
+
+    data:
+      $ref: "#/User"
+
+    errors:
+      nullable: true
+      example: null
+
+    meta:
+      nullable: true
+      example: null
+
+    timestamp:
+      type: string
+      format: date-time

@@ -1,0 +1,19 @@
+summary: Login Successful
+
+value:
+  success: true
+  message: Login successful.
+  data:
+    user:
+      id: "686eb58c1d93afefb1287645"
+      firstName: "Promise"
+      lastName: "Okere"
+      email: "promise@example.com"
+      role: "user"
+
+    accessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+    refreshToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+
+  errors: null
+  meta: null
+  timestamp: "2026-07-20T15:20:12.000Z"

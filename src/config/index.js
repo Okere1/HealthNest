@@ -5,6 +5,7 @@ const { cleanEnv, str, port, bool, num } = require("envalid");
 // Validate and sanitize environment variables
 const env = cleanEnv(process.env, {
   NODE_ENV: str({ default: "development" }),
+  SERVER_URL: str({ default: "http://localhost:5000" }),
   PORT: port({ default: 5000 }),
   MONGO_URI: str(),
   MONGO_DB_NAME: str({ default: "healthnest" }),
@@ -21,6 +22,9 @@ const env = cleanEnv(process.env, {
 // Export a structured configuration object
 module.exports = {
   env: env.NODE_ENV,
+  server: {
+    url: env.SERVER_URL,
+  },
   port: env.PORT,
   mongo: {
     uri: env.MONGO_URI,

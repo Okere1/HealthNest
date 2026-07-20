@@ -1,0 +1,336 @@
+openapi: 3.1.0
+info:
+  title: HealthNest API
+  version: 1.0.0
+  description: HealthNest Backend REST API.
+servers:
+  - url: http://localhost:5000/api/v1
+    description: Local Development
+tags:
+  - name: Authentication
+  - name: Users
+  - name: Health
+paths:
+  /health:
+    get:
+      tags:
+        - Health
+      summary: API Health Check
+      description: |
+        Checks whether the HealthNest API is running.
+
+        This endpoint is commonly used by:
+
+          • Load balancers
+          • Monitoring systems
+          • Kubernetes probes
+          • Mobile/Web applications
+      operationId: getHealth
+      responses:
+        '200':
+          description: API is running successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+              example:
+                success: true
+                message: API is running.
+                data:
+                  status: healthy
+                errors: null
+                meta: null
+                timestamp: '2026-07-20T10:15:30.456Z'
+  /users/register:
+    post:
+      tags:
+        - Users
+      summary: Register New User
+      description: |
+        Creates a new HealthNest user account.
+
+        The email address must be unique.
+      operationId: registerUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterRequest'
+            example:
+              firstName: Promise
+              lastName: Okere
+              email: promise@example.com
+              password: Password@123
+      responses:
+        '201':
+          description: User registered successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RegisterSuccessResponse'
+              example:
+                success: true
+                message: User registered successfully.
+                data:
+                  id: 686eb58c1942547e95ce5e61
+                  firstName: Promise
+                  lastName: Okere
+                  email: promise@example.com
+                  role: user
+                  createdAt: '2026-07-20T14:32:10.000Z'
+                  updatedAt: '2026-07-20T14:32:10.000Z'
+                errors: null
+                meta: null
+                timestamp: '2026-07-20T14:32:10.000Z'
+  /auth/login:
+    post:
+      tags:
+        - Authentication
+      summary: Login
+      description: |
+        Authenticates a user and returns
+        an Access Token and Refresh Token.
+      operationId: login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+            example:
+              email: promise@example.com
+              password: Password@123
+      responses:
+        '200':
+          description: Login successful.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+              example:
+                success: true
+                message: Login successful.
+                data:
+                  user:
+                    id: 686eb58c1942547e95ce5e61
+                    firstName: Promise
+                    lastName: Okere
+                    email: promise@example.com
+                    role: user
+                  accessToken: eyJhbGc...
+                  refreshToken: eyJhbGc...
+                errors: null
+                meta: null
+                timestamp: '2026-07-20T14:32:10.000Z'
+  /auth/me:
+    get:
+      tags:
+        - Authentication
+      summary: Get Current User
+      description: |
+        Returns the currently authenticated user.
+      operationId: getCurrentUser
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Authenticated user returned successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiResponse'
+              example:
+                success: true
+                message: Authenticated successfully.
+                data:
+                  id: 686eb58c1942547e95ce5e61
+                  firstName: Promise
+                  lastName: Okere
+                  email: promise@example.com
+                  role: user
+                errors: null
+                meta: null
+                timestamp: '2026-07-20T14:32:10.000Z'
+components:
+  schemas:
+    ApiResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        message:
+          type: string
+          example: Request completed successfully.
+        data:
+          nullable: true
+        errors:
+          nullable: true
+        meta:
+          nullable: true
+        timestamp:
+          type: string
+          format: date-time
+          example: '2026-07-20T13:15:25.345Z'
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        message:
+          type: string
+          example: Validation failed.
+        data:
+          nullable: true
+          example: null
+        errors:
+          type: object
+          example:
+            email:
+              - Email is required.
+            password:
+              - Password must be at least 8 characters.
+        meta:
+          nullable: true
+          example: null
+        timestamp:
+          type: string
+          format: date-time
+    RegisterRequest:
+      type: object
+      required:
+        - firstName
+        - lastName
+        - email
+        - password
+      properties:
+        firstName:
+          type: string
+          example: Promise
+        lastName:
+          type: string
+          example: Okere
+        email:
+          type: string
+          format: email
+          example: promise@example.com
+        password:
+          type: string
+          format: password
+          example: Password@123
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          example: 686eb58c1942547e95ce5e61
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+          format: email
+        role:
+          type: string
+          example: user
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+    LoginRequest:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          format: email
+          example: promise@example.com
+        password:
+          type: string
+          format: password
+          example: Password@123
+    LoginResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        message:
+          type: string
+          example: Login successful.
+        data:
+          type: object
+          properties:
+            user:
+              $ref: '#/components/schemas/User'
+            accessToken:
+              type: string
+            refreshToken:
+              type: string
+        errors:
+          nullable: true
+          example: null
+        meta:
+          nullable: true
+          example: null
+        timestamp:
+          type: string
+          format: date-time
+    HealthData:
+      type: object
+      properties:
+        status:
+          type: string
+          example: healthy
+    HealthResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        message:
+          type: string
+          example: API is running.
+        data:
+          $ref: '#/components/schemas/HealthData'
+        errors:
+          nullable: true
+          example: null
+        meta:
+          nullable: true
+          example: null
+        timestamp:
+          type: string
+          format: date-time
+    RegisterSuccessResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        message:
+          type: string
+          example: User registered successfully.
+        data:
+          $ref: '#/components/schemas/User'
+        errors:
+          nullable: true
+          example: null
+        meta:
+          nullable: true
+          example: null
+        timestamp:
+          type: string
+          format: date-time
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

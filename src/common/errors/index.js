@@ -5,4 +5,5 @@ module.exports = {
   ForbiddenError: require("./ForbiddenError"),
   NotFoundError: require("./NotFoundError"),
   ConflictError: require("./ConflictError"),
+  ValidationError: require("./ValidationError"),
 };

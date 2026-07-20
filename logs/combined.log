@@ -1345,3 +1345,1141 @@ API Version : v1
     at Object.login (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\auth\auth.service.js:54:28)
     at async login (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\auth\auth.controller.js:7:20)
 2026-07-20 01:15:22 [HTTP] ::1 - - [20/Jul/2026:00:15:22 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 552 "-" "PostmanRuntime/7.54.0"
+2026-07-20 01:16:29 [INFO] MongoDB connection established.
+2026-07-20 01:16:29 [INFO] Database: healthnest
+2026-07-20 01:16:29 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 01:16:29 [INFO] MongoDB connected successfully.
+2026-07-20 01:16:29 [INFO] Database: healthnest
+2026-07-20 01:16:29 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 01:16:29 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 01:16:34 [INFO] User authenticated successfully.
+2026-07-20 01:16:34 [HTTP] ::1 - - [20/Jul/2026:00:16:34 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 758 "-" "PostmanRuntime/7.54.0"
+2026-07-20 07:33:23 [INFO] MongoDB connection established.
+2026-07-20 07:33:23 [INFO] Database: healthnest
+2026-07-20 07:33:23 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:33:23 [INFO] MongoDB connected successfully.
+2026-07-20 07:33:23 [INFO] Database: healthnest
+2026-07-20 07:33:23 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:33:23 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 07:41:54 [INFO] MongoDB connection established.
+2026-07-20 07:41:54 [INFO] Database: healthnest
+2026-07-20 07:41:54 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:41:54 [INFO] MongoDB connected successfully.
+2026-07-20 07:41:54 [INFO] Database: healthnest
+2026-07-20 07:41:54 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:41:54 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 07:42:04 [INFO] User authenticated successfully.
+2026-07-20 07:42:04 [HTTP] ::1 - - [20/Jul/2026:06:42:04 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 758 "-" "PostmanRuntime/7.54.0"
+2026-07-20 07:44:29 [HTTP] ::1 - - [20/Jul/2026:06:44:29 +0000] "GET /api/v1/health HTTP/1.1" 200 200 "-" "PostmanRuntime/7.54.0"
+2026-07-20 07:45:57 [INFO] MongoDB connection established.
+2026-07-20 07:45:57 [INFO] Database: healthnest
+2026-07-20 07:45:57 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:45:57 [INFO] MongoDB connected successfully.
+2026-07-20 07:45:57 [INFO] Database: healthnest
+2026-07-20 07:45:57 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:45:57 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 07:55:31 [INFO] MongoDB connection established.
+2026-07-20 07:55:31 [INFO] Database: healthnest
+2026-07-20 07:55:31 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:55:31 [INFO] MongoDB connected successfully.
+2026-07-20 07:55:31 [INFO] Database: healthnest
+2026-07-20 07:55:31 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:55:31 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 07:57:11 [INFO] MongoDB connection established.
+2026-07-20 07:57:11 [INFO] Database: healthnest
+2026-07-20 07:57:11 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:57:11 [INFO] MongoDB connected successfully.
+2026-07-20 07:57:11 [INFO] Database: healthnest
+2026-07-20 07:57:11 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:57:11 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 07:58:41 [INFO] MongoDB connection established.
+2026-07-20 07:58:41 [INFO] Database: healthnest
+2026-07-20 07:58:41 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:58:41 [INFO] MongoDB connected successfully.
+2026-07-20 07:58:41 [INFO] Database: healthnest
+2026-07-20 07:58:41 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 07:58:41 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 07:59:01 [INFO] MongoDB connection established.
+2026-07-20 07:59:01 [INFO] Database: healthnest
+2026-07-20 07:59:01 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 07:59:01 [INFO] MongoDB connected successfully.
+2026-07-20 07:59:01 [INFO] Database: healthnest
+2026-07-20 07:59:01 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 07:59:01 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 07:59:04 [INFO] User authenticated successfully.
+2026-07-20 07:59:04 [HTTP] ::1 - - [20/Jul/2026:06:59:04 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 758 "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:16:45 [INFO] MongoDB connection established.
+2026-07-20 08:16:45 [INFO] Database: healthnest
+2026-07-20 08:16:45 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:16:45 [INFO] MongoDB connected successfully.
+2026-07-20 08:16:45 [INFO] Database: healthnest
+2026-07-20 08:16:45 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:16:45 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:27:01 [INFO] MongoDB connection established.
+2026-07-20 08:27:01 [INFO] Database: healthnest
+2026-07-20 08:27:01 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:27:01 [INFO] MongoDB connected successfully.
+2026-07-20 08:27:01 [INFO] Database: healthnest
+2026-07-20 08:27:01 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:27:01 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:27:24 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:27:24 [HTTP] ::1 - - [20/Jul/2026:07:27:24 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:28:26 [ERROR] UnauthorizedError: Invalid or expired access token.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:40:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:28:26 [HTTP] ::1 - - [20/Jul/2026:07:28:26 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:28:58 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:28:58 [HTTP] ::1 - - [20/Jul/2026:07:28:58 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:29:49 [INFO] MongoDB connection established.
+2026-07-20 08:29:49 [INFO] Database: healthnest
+2026-07-20 08:29:49 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:29:49 [INFO] MongoDB connected successfully.
+2026-07-20 08:29:49 [INFO] Database: healthnest
+2026-07-20 08:29:49 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:29:49 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:30:18 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:30:18 [HTTP] ::1 - - [20/Jul/2026:07:30:18 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:30:54 [ERROR] UnauthorizedError: Invalid or expired access token.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:40:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:30:54 [HTTP] ::1 - - [20/Jul/2026:07:30:54 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:35:10 [INFO] MongoDB connection established.
+2026-07-20 08:35:10 [INFO] Database: healthnest
+2026-07-20 08:35:10 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 08:35:10 [INFO] MongoDB connected successfully.
+2026-07-20 08:35:10 [INFO] Database: healthnest
+2026-07-20 08:35:10 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 08:35:10 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:35:50 [ERROR] UnauthorizedError: Invalid or expired access token.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:40:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:35:50 [HTTP] ::1 - - [20/Jul/2026:07:35:50 +0000] "GET /api/v1/auth/me HTTP/1.1" 500 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:36:21 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:36:21 [HTTP] ::1 - - [20/Jul/2026:07:36:21 +0000] "GET /api/v1/auth/me HTTP/1.1" 500 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:36:43 [INFO] MongoDB connection established.
+2026-07-20 08:36:43 [INFO] Database: healthnest
+2026-07-20 08:36:43 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:36:43 [INFO] MongoDB connected successfully.
+2026-07-20 08:36:43 [INFO] Database: healthnest
+2026-07-20 08:36:43 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:36:43 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:36:45 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:36:45 [HTTP] ::1 - - [20/Jul/2026:07:36:45 +0000] "GET /api/v1/auth/me HTTP/1.1" 500 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:37:20 [INFO] MongoDB connection established.
+2026-07-20 08:37:20 [INFO] Database: healthnest
+2026-07-20 08:37:20 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 08:37:20 [INFO] MongoDB connected successfully.
+2026-07-20 08:37:20 [INFO] Database: healthnest
+2026-07-20 08:37:20 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 08:37:20 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:37:41 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:37:41 [HTTP] ::1 - - [20/Jul/2026:07:37:41 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:38:14 [INFO] MongoDB connection established.
+2026-07-20 08:38:14 [INFO] Database: healthnest
+2026-07-20 08:38:14 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:38:14 [INFO] MongoDB connected successfully.
+2026-07-20 08:38:14 [INFO] Database: healthnest
+2026-07-20 08:38:14 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:38:14 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:38:44 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:38:44 [HTTP] ::1 - - [20/Jul/2026:07:38:44 +0000] "GET /api/v1/auth/me HTTP/1.1" 500 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:40:09 [INFO] MongoDB connection established.
+2026-07-20 08:40:09 [INFO] Database: healthnest
+2026-07-20 08:40:09 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:40:09 [INFO] MongoDB connected successfully.
+2026-07-20 08:40:09 [INFO] Database: healthnest
+2026-07-20 08:40:09 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:40:09 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:40:11 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:40:11 [HTTP] ::1 - - [20/Jul/2026:07:40:11 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:42:02 [INFO] MongoDB connection established.
+2026-07-20 08:42:02 [INFO] Database: healthnest
+2026-07-20 08:42:02 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:42:02 [INFO] MongoDB connected successfully.
+2026-07-20 08:42:02 [INFO] Database: healthnest
+2026-07-20 08:42:02 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:42:02 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:48:26 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:48:26 [HTTP] ::1 - - [20/Jul/2026:07:48:26 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:48:46 [INFO] MongoDB connection established.
+2026-07-20 08:48:46 [INFO] Database: healthnest
+2026-07-20 08:48:46 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:48:46 [INFO] MongoDB connected successfully.
+2026-07-20 08:48:46 [INFO] Database: healthnest
+2026-07-20 08:48:46 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 08:48:46 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:48:50 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:48:50 [HTTP] ::1 - - [20/Jul/2026:07:48:50 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 - "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:49:33 [INFO] MongoDB connection established.
+2026-07-20 08:49:33 [INFO] Database: healthnest
+2026-07-20 08:49:33 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 08:49:33 [INFO] MongoDB connected successfully.
+2026-07-20 08:49:33 [INFO] Database: healthnest
+2026-07-20 08:49:33 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 08:49:33 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 08:49:38 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:49:38 [HTTP] ::1 - - [20/Jul/2026:07:49:38 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 140 "-" "PostmanRuntime/7.54.0"
+2026-07-20 08:56:58 [ERROR] UnauthorizedError: Invalid or expired access token.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:40:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-20 08:56:58 [HTTP] ::1 - - [20/Jul/2026:07:56:58 +0000] "GET /api/v1/auth/me HTTP/1.1" 401 139 "-" "PostmanRuntime/7.54.0"
+2026-07-20 10:55:37 [INFO] MongoDB connection established.
+2026-07-20 10:55:37 [INFO] Database: healthnest
+2026-07-20 10:55:37 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 10:55:37 [INFO] MongoDB connected successfully.
+2026-07-20 10:55:37 [INFO] Database: healthnest
+2026-07-20 10:55:37 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 10:55:37 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:12:36 [INFO] MongoDB connection established.
+2026-07-20 11:12:36 [INFO] Database: healthnest
+2026-07-20 11:12:36 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:12:36 [INFO] MongoDB connected successfully.
+2026-07-20 11:12:36 [INFO] Database: healthnest
+2026-07-20 11:12:36 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:12:36 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:37:08 [INFO] MongoDB connection established.
+2026-07-20 11:37:08 [INFO] Database: healthnest
+2026-07-20 11:37:08 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:37:08 [INFO] MongoDB connected successfully.
+2026-07-20 11:37:08 [INFO] Database: healthnest
+2026-07-20 11:37:08 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:37:08 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:37:39 [INFO] MongoDB connection established.
+2026-07-20 11:37:39 [INFO] Database: healthnest
+2026-07-20 11:37:39 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 11:37:39 [INFO] MongoDB connected successfully.
+2026-07-20 11:37:39 [INFO] Database: healthnest
+2026-07-20 11:37:39 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 11:37:39 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:43:27 [INFO] MongoDB connection established.
+2026-07-20 11:43:27 [INFO] Database: healthnest
+2026-07-20 11:43:27 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:43:27 [INFO] MongoDB connected successfully.
+2026-07-20 11:43:27 [INFO] Database: healthnest
+2026-07-20 11:43:27 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:43:27 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:44:51 [INFO] MongoDB connection established.
+2026-07-20 11:44:51 [INFO] Database: healthnest
+2026-07-20 11:44:51 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 11:44:51 [INFO] MongoDB connected successfully.
+2026-07-20 11:44:51 [INFO] Database: healthnest
+2026-07-20 11:44:51 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 11:44:51 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:45:47 [INFO] MongoDB connection established.
+2026-07-20 11:45:47 [INFO] Database: healthnest
+2026-07-20 11:45:47 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:45:47 [INFO] MongoDB connected successfully.
+2026-07-20 11:45:47 [INFO] Database: healthnest
+2026-07-20 11:45:47 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:45:47 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:46:39 [INFO] MongoDB connection established.
+2026-07-20 11:46:39 [INFO] Database: healthnest
+2026-07-20 11:46:39 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 11:46:39 [INFO] MongoDB connected successfully.
+2026-07-20 11:46:39 [INFO] Database: healthnest
+2026-07-20 11:46:39 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 11:46:39 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:47:26 [INFO] MongoDB connection established.
+2026-07-20 11:47:26 [INFO] Database: healthnest
+2026-07-20 11:47:26 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:47:26 [INFO] MongoDB connected successfully.
+2026-07-20 11:47:26 [INFO] Database: healthnest
+2026-07-20 11:47:26 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:47:26 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:52:12 [INFO] MongoDB connection established.
+2026-07-20 11:52:12 [INFO] Database: healthnest
+2026-07-20 11:52:12 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:52:12 [INFO] MongoDB connected successfully.
+2026-07-20 11:52:12 [INFO] Database: healthnest
+2026-07-20 11:52:12 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:52:12 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:52:47 [INFO] MongoDB connection established.
+2026-07-20 11:52:47 [INFO] Database: healthnest
+2026-07-20 11:52:47 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 11:52:47 [INFO] MongoDB connected successfully.
+2026-07-20 11:52:47 [INFO] Database: healthnest
+2026-07-20 11:52:47 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 11:52:47 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:53:14 [INFO] MongoDB connection established.
+2026-07-20 11:53:14 [INFO] Database: healthnest
+2026-07-20 11:53:14 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:53:14 [INFO] MongoDB connected successfully.
+2026-07-20 11:53:14 [INFO] Database: healthnest
+2026-07-20 11:53:14 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:53:14 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:54:27 [INFO] MongoDB connection established.
+2026-07-20 11:54:27 [INFO] Database: healthnest
+2026-07-20 11:54:27 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:54:27 [INFO] MongoDB connected successfully.
+2026-07-20 11:54:27 [INFO] Database: healthnest
+2026-07-20 11:54:27 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:54:27 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:55:08 [INFO] MongoDB connection established.
+2026-07-20 11:55:08 [INFO] Database: healthnest
+2026-07-20 11:55:08 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 11:55:08 [INFO] MongoDB connected successfully.
+2026-07-20 11:55:08 [INFO] Database: healthnest
+2026-07-20 11:55:08 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 11:55:08 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:55:32 [INFO] MongoDB connection established.
+2026-07-20 11:55:32 [INFO] Database: healthnest
+2026-07-20 11:55:32 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:55:32 [INFO] MongoDB connected successfully.
+2026-07-20 11:55:32 [INFO] Database: healthnest
+2026-07-20 11:55:32 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 11:55:32 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 11:55:34 [HTTP] ::1 - - [20/Jul/2026:10:55:34 +0000] "GET /api-docs HTTP/1.1" 301 158 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:16 [HTTP] ::1 - - [20/Jul/2026:10:56:16 +0000] "GET /api-docs/api/v1 HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:17 [HTTP] ::1 - - [20/Jul/2026:10:56:17 +0000] "GET /api-docs/api/swagger-ui.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:17 [HTTP] ::1 - - [20/Jul/2026:10:56:17 +0000] "GET /api-docs/api/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:17 [HTTP] ::1 - - [20/Jul/2026:10:56:17 +0000] "GET /api-docs/api/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:17 [HTTP] ::1 - - [20/Jul/2026:10:56:17 +0000] "GET /api-docs/api/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:17 [HTTP] ::1 - - [20/Jul/2026:10:56:17 +0000] "GET /api-docs/api/favicon-32x32.png HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:17 [HTTP] ::1 - - [20/Jul/2026:10:56:17 +0000] "GET /api-docs/api/favicon-16x16.png HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:27 [HTTP] ::1 - - [20/Jul/2026:10:56:27 +0000] "GET /api-docs/api/v1 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:27 [HTTP] ::1 - - [20/Jul/2026:10:56:27 +0000] "GET /api-docs/api/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:27 [HTTP] ::1 - - [20/Jul/2026:10:56:27 +0000] "GET /api-docs/api/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:27 [HTTP] ::1 - - [20/Jul/2026:10:56:27 +0000] "GET /api-docs/api/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:27 [HTTP] ::1 - - [20/Jul/2026:10:56:27 +0000] "GET /api-docs/api/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:27 [HTTP] ::1 - - [20/Jul/2026:10:56:27 +0000] "GET /api-docs/api/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 11:56:27 [HTTP] ::1 - - [20/Jul/2026:10:56:27 +0000] "GET /api-docs/api/favicon-16x16.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:01:15 [HTTP] ::1 - - [20/Jul/2026:11:01:15 +0000] "GET /api-docs.json HTTP/1.1" 404 132 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:01:16 [HTTP] ::1 - - [20/Jul/2026:11:01:16 +0000] "GET /favicon.ico HTTP/1.1" 404 130 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:01:32 [HTTP] ::1 - - [20/Jul/2026:11:01:32 +0000] "GET /api/v1/api-docs.json HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:02:25 [INFO] MongoDB connection established.
+2026-07-20 12:02:25 [INFO] Database: healthnest
+2026-07-20 12:02:25 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 12:02:25 [INFO] MongoDB connected successfully.
+2026-07-20 12:02:25 [INFO] Database: healthnest
+2026-07-20 12:02:25 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 12:02:25 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 12:02:29 [HTTP] ::1 - - [20/Jul/2026:11:02:29 +0000] "GET /api-docs.json HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:02:43 [HTTP] ::1 - - [20/Jul/2026:11:02:43 +0000] "GET /api-docs.json HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:02:50 [HTTP] ::1 - - [20/Jul/2026:11:02:50 +0000] "GET /api-docs.json HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:12:42 [INFO] MongoDB connection established.
+2026-07-20 12:12:42 [INFO] Database: healthnest
+2026-07-20 12:12:42 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 12:12:42 [INFO] MongoDB connected successfully.
+2026-07-20 12:12:42 [INFO] Database: healthnest
+2026-07-20 12:12:42 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 12:12:42 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 12:14:00 [HTTP] ::1 - - [20/Jul/2026:11:14:00 +0000] "GET /api-docs/api/v1 HTTP/1.1" 404 134 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:14:03 [HTTP] ::1 - - [20/Jul/2026:11:14:03 +0000] "GET /api-docs/api/v1 HTTP/1.1" 404 134 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:14:25 [HTTP] ::1 - - [20/Jul/2026:11:14:25 +0000] "GET /api-docs/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:14:25 [HTTP] ::1 - - [20/Jul/2026:11:14:25 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:14:25 [HTTP] ::1 - - [20/Jul/2026:11:14:25 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:14:25 [HTTP] ::1 - - [20/Jul/2026:11:14:25 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:14:25 [HTTP] ::1 - - [20/Jul/2026:11:14:25 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:14:25 [HTTP] ::1 - - [20/Jul/2026:11:14:25 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:14:59 [INFO] MongoDB connection established.
+2026-07-20 12:14:59 [INFO] Database: healthnest
+2026-07-20 12:14:59 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 12:14:59 [INFO] MongoDB connected successfully.
+2026-07-20 12:14:59 [INFO] Database: healthnest
+2026-07-20 12:14:59 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 12:14:59 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 12:15:01 [HTTP] ::1 - - [20/Jul/2026:11:15:01 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:15:47 [INFO] MongoDB connection established.
+2026-07-20 12:15:47 [INFO] Database: healthnest
+2026-07-20 12:15:47 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 12:15:47 [INFO] MongoDB connected successfully.
+2026-07-20 12:15:47 [INFO] Database: healthnest
+2026-07-20 12:15:47 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 12:15:47 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 12:16:01 [HTTP] ::1 - - [20/Jul/2026:11:16:01 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 12:26:23 [INFO] MongoDB connection established.
+2026-07-20 12:26:23 [INFO] Database: healthnest
+2026-07-20 12:26:23 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 12:26:23 [INFO] MongoDB connected successfully.
+2026-07-20 12:26:23 [INFO] Database: healthnest
+2026-07-20 12:26:23 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 12:26:23 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 12:26:46 [INFO] MongoDB connection established.
+2026-07-20 12:26:46 [INFO] Database: healthnest
+2026-07-20 12:26:46 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 12:26:46 [INFO] MongoDB connected successfully.
+2026-07-20 12:26:46 [INFO] Database: healthnest
+2026-07-20 12:26:46 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 12:26:47 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 12:27:17 [INFO] MongoDB connection established.
+2026-07-20 12:27:17 [INFO] Database: healthnest
+2026-07-20 12:27:17 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-20 12:27:17 [INFO] MongoDB connected successfully.
+2026-07-20 12:27:17 [INFO] Database: healthnest
+2026-07-20 12:27:17 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-20 12:27:17 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 12:35:17 [INFO] MongoDB connection established.
+2026-07-20 12:35:17 [INFO] Database: healthnest
+2026-07-20 12:35:17 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 12:35:17 [INFO] MongoDB connected successfully.
+2026-07-20 12:35:17 [INFO] Database: healthnest
+2026-07-20 12:35:17 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 12:35:17 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 13:25:00 [INFO] MongoDB connection established.
+2026-07-20 13:25:00 [INFO] Database: healthnest
+2026-07-20 13:25:00 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 13:25:00 [INFO] MongoDB connected successfully.
+2026-07-20 13:25:00 [INFO] Database: healthnest
+2026-07-20 13:25:00 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 13:25:00 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 13:25:33 [INFO] MongoDB connection established.
+2026-07-20 13:25:33 [INFO] Database: healthnest
+2026-07-20 13:25:33 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 13:25:33 [INFO] MongoDB connected successfully.
+2026-07-20 13:25:33 [INFO] Database: healthnest
+2026-07-20 13:25:33 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 13:25:33 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 13:26:22 [INFO] MongoDB connection established.
+2026-07-20 13:26:22 [INFO] Database: healthnest
+2026-07-20 13:26:22 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 13:26:22 [INFO] MongoDB connected successfully.
+2026-07-20 13:26:22 [INFO] Database: healthnest
+2026-07-20 13:26:22 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 13:26:22 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 13:31:19 [INFO] MongoDB connection established.
+2026-07-20 13:31:19 [INFO] Database: healthnest
+2026-07-20 13:31:19 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 13:31:19 [INFO] MongoDB connected successfully.
+2026-07-20 13:31:19 [INFO] Database: healthnest
+2026-07-20 13:31:19 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 13:31:19 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 13:31:28 [HTTP] ::1 - - [20/Jul/2026:12:31:28 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:31:29 [HTTP] ::1 - - [20/Jul/2026:12:31:29 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:31:29 [HTTP] ::1 - - [20/Jul/2026:12:31:29 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:31:29 [HTTP] ::1 - - [20/Jul/2026:12:31:29 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:31:29 [HTTP] ::1 - - [20/Jul/2026:12:31:29 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:17 [HTTP] ::1 - - [20/Jul/2026:12:50:17 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:17 [HTTP] ::1 - - [20/Jul/2026:12:50:17 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:17 [HTTP] ::1 - - [20/Jul/2026:12:50:17 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:17 [HTTP] ::1 - - [20/Jul/2026:12:50:17 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:17 [HTTP] ::1 - - [20/Jul/2026:12:50:17 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:17 [HTTP] ::1 - - [20/Jul/2026:12:50:17 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:22 [HTTP] ::1 - - [20/Jul/2026:12:50:22 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:22 [HTTP] ::1 - - [20/Jul/2026:12:50:22 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:22 [HTTP] ::1 - - [20/Jul/2026:12:50:22 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:22 [HTTP] ::1 - - [20/Jul/2026:12:50:22 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:22 [HTTP] ::1 - - [20/Jul/2026:12:50:22 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:50:22 [HTTP] ::1 - - [20/Jul/2026:12:50:22 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:17 [HTTP] ::1 - - [20/Jul/2026:12:51:17 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:17 [HTTP] ::1 - - [20/Jul/2026:12:51:17 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:17 [HTTP] ::1 - - [20/Jul/2026:12:51:17 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:17 [HTTP] ::1 - - [20/Jul/2026:12:51:17 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:17 [HTTP] ::1 - - [20/Jul/2026:12:51:17 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:17 [HTTP] ::1 - - [20/Jul/2026:12:51:17 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:19 [HTTP] ::1 - - [20/Jul/2026:12:51:19 +0000] "GET /api-docs/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:19 [HTTP] ::1 - - [20/Jul/2026:12:51:19 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:19 [HTTP] ::1 - - [20/Jul/2026:12:51:19 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:19 [HTTP] ::1 - - [20/Jul/2026:12:51:19 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:19 [HTTP] ::1 - - [20/Jul/2026:12:51:19 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:51:19 [HTTP] ::1 - - [20/Jul/2026:12:51:19 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:53:02 [HTTP] ::1 - - [20/Jul/2026:12:53:02 +0000] "GET /api-docs.json HTTP/1.1" 200 673 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:53:03 [HTTP] ::1 - - [20/Jul/2026:12:53:03 +0000] "GET /favicon.ico HTTP/1.1" 404 130 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 13:55:20 [INFO] MongoDB connection established.
+2026-07-20 13:55:20 [INFO] Database: healthnest
+2026-07-20 13:55:20 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 13:55:20 [INFO] MongoDB connected successfully.
+2026-07-20 13:55:20 [INFO] Database: healthnest
+2026-07-20 13:55:20 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 13:55:20 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 13:57:45 [INFO] MongoDB connection established.
+2026-07-20 13:57:45 [INFO] Database: healthnest
+2026-07-20 13:57:45 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 13:57:45 [INFO] MongoDB connected successfully.
+2026-07-20 13:57:45 [INFO] Database: healthnest
+2026-07-20 13:57:45 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 13:57:45 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 14:00:10 [INFO] MongoDB connection established.
+2026-07-20 14:00:10 [INFO] Database: healthnest
+2026-07-20 14:00:10 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 14:00:10 [INFO] MongoDB connected successfully.
+2026-07-20 14:00:10 [INFO] Database: healthnest
+2026-07-20 14:00:10 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 14:00:10 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 14:00:10 [HTTP] ::1 - - [20/Jul/2026:13:00:10 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:00:10 [HTTP] ::1 - - [20/Jul/2026:13:00:10 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:00:10 [HTTP] ::1 - - [20/Jul/2026:13:00:10 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:00:10 [HTTP] ::1 - - [20/Jul/2026:13:00:10 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:00:10 [HTTP] ::1 - - [20/Jul/2026:13:00:10 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:00:10 [HTTP] ::1 - - [20/Jul/2026:13:00:10 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:00:42 [INFO] MongoDB connection established.
+2026-07-20 14:00:42 [INFO] Database: healthnest
+2026-07-20 14:00:42 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 14:00:42 [INFO] MongoDB connected successfully.
+2026-07-20 14:00:42 [INFO] Database: healthnest
+2026-07-20 14:00:42 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 14:00:42 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 14:11:16 [HTTP] ::1 - - [20/Jul/2026:13:11:16 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:11:16 [HTTP] ::1 - - [20/Jul/2026:13:11:16 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:11:16 [HTTP] ::1 - - [20/Jul/2026:13:11:16 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:11:16 [HTTP] ::1 - - [20/Jul/2026:13:11:16 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:11:16 [HTTP] ::1 - - [20/Jul/2026:13:11:16 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:11:16 [HTTP] ::1 - - [20/Jul/2026:13:11:16 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:12:39 [HTTP] ::1 - - [20/Jul/2026:13:12:39 +0000] "GET /api-docs.json HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:12:45 [HTTP] ::1 - - [20/Jul/2026:13:12:45 +0000] "GET /api-docs.json HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:12:50 [HTTP] ::1 - - [20/Jul/2026:13:12:50 +0000] "GET /api-docs.json HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:13:04 [HTTP] ::1 - - [20/Jul/2026:13:13:04 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:13:04 [HTTP] ::1 - - [20/Jul/2026:13:13:04 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:13:04 [HTTP] ::1 - - [20/Jul/2026:13:13:04 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:13:04 [HTTP] ::1 - - [20/Jul/2026:13:13:04 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:13:04 [HTTP] ::1 - - [20/Jul/2026:13:13:04 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:14:49 [INFO] MongoDB connection established.
+2026-07-20 14:14:49 [INFO] Database: healthnest
+2026-07-20 14:14:49 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 14:14:49 [INFO] MongoDB connected successfully.
+2026-07-20 14:14:49 [INFO] Database: healthnest
+2026-07-20 14:14:49 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 14:14:49 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 14:19:14 [INFO] MongoDB connection established.
+2026-07-20 14:19:14 [INFO] Database: healthnest
+2026-07-20 14:19:14 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 14:19:14 [INFO] MongoDB connected successfully.
+2026-07-20 14:19:14 [INFO] Database: healthnest
+2026-07-20 14:19:14 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 14:19:14 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 14:19:44 [INFO] MongoDB connection established.
+2026-07-20 14:19:44 [INFO] Database: healthnest
+2026-07-20 14:19:44 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 14:19:44 [INFO] MongoDB connected successfully.
+2026-07-20 14:19:44 [INFO] Database: healthnest
+2026-07-20 14:19:44 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-20 14:19:44 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 14:23:29 [INFO] MongoDB connection established.
+2026-07-20 14:23:29 [INFO] Database: healthnest
+2026-07-20 14:23:29 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 14:23:29 [INFO] MongoDB connected successfully.
+2026-07-20 14:23:29 [INFO] Database: healthnest
+2026-07-20 14:23:29 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 14:23:29 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-20 14:25:21 [HTTP] ::1 - - [20/Jul/2026:13:25:21 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:25:21 [HTTP] ::1 - - [20/Jul/2026:13:25:21 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:25:21 [HTTP] ::1 - - [20/Jul/2026:13:25:21 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:25:21 [HTTP] ::1 - - [20/Jul/2026:13:25:21 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:25:21 [HTTP] ::1 - - [20/Jul/2026:13:25:21 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:25:22 [HTTP] ::1 - - [20/Jul/2026:13:25:22 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:25:22 [HTTP] ::1 - - [20/Jul/2026:13:25:22 +0000] "GET /api-docs/paths/health.yaml HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:25:22 [HTTP] ::1 - - [20/Jul/2026:13:25:22 +0000] "GET /api-docs/paths/users.yaml HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:25:22 [HTTP] ::1 - - [20/Jul/2026:13:25:22 +0000] "GET /api-docs/paths/auth.yaml HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:25:22 [HTTP] ::1 - - [20/Jul/2026:13:25:22 +0000] "GET /api-docs/paths/auth.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:25:22 [HTTP] ::1 - - [20/Jul/2026:13:25:22 +0000] "GET /api-docs/security/bearer.yaml HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/paths/health.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/paths/users.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/paths/auth.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/paths/auth.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 14:58:53 [HTTP] ::1 - - [20/Jul/2026:13:58:53 +0000] "GET /api-docs/security/bearer.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/paths/health.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/paths/users.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/paths/auth.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/paths/auth.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 15:37:47 [HTTP] ::1 - - [20/Jul/2026:14:37:47 +0000] "GET /api-docs/security/bearer.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/paths/health.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/paths/users.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/paths/auth.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/paths/auth.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:34:21 [HTTP] ::1 - - [20/Jul/2026:15:34:21 +0000] "GET /api-docs/security/bearer.yaml HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-20 16:38:39 [INFO] MongoDB connection established.
+2026-07-20 16:38:39 [INFO] Database: healthnest
+2026-07-20 16:38:39 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 16:38:39 [INFO] MongoDB connected successfully.
+2026-07-20 16:38:39 [INFO] Database: healthnest
+2026-07-20 16:38:39 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-20 16:38:39 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+

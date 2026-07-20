@@ -1,0 +1,9 @@
+summary: Unauthorized
+
+value:
+  success: false
+  summary: Missing Authorization Header
+  data: null
+  errors: null
+  meta: null
+  timestamp: "2026-07-20T15:24:45.000Z"

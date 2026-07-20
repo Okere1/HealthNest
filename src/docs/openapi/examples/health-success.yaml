@@ -1,0 +1,10 @@
+summary: Health Check
+
+value:
+  success: true
+  message: API is running successfully.
+  data:
+    status: healthy
+  errors: null
+  meta: null
+  timestamp: "2026-07-20T15:25:50.000Z"

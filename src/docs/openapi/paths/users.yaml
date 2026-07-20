@@ -1,0 +1,51 @@
+post:
+  tags:
+    - Users
+
+  summary: Register New User
+
+  description: |
+    Creates a new HealthNest user account.
+
+    The email address must be unique.
+
+  operationId: registerUser
+
+  requestBody:
+    required: true
+
+    content:
+      application/json:
+        schema:
+          $ref: "../schemas/user.yaml#/RegisterRequest"
+
+        example:
+          firstName: Promise
+          lastName: Okere
+          email: promise@example.com
+          password: Password@123
+
+  responses:
+    "201":
+      description: User registered successfully.
+
+      content:
+        application/json:
+          schema:
+            $ref: "../schemas/user.yaml#/RegisterSuccessResponse"
+
+          example:
+            success: true
+            message: User registered successfully.
+            data:
+              id: 686eb58c1942547e95ce5e61
+              firstName: Promise
+              lastName: Okere
+              email: promise@example.com
+              role: user
+              createdAt: "2026-07-20T14:32:10.000Z"
+              updatedAt: "2026-07-20T14:32:10.000Z"
+
+            errors: null
+            meta: null
+            timestamp: "2026-07-20T14:32:10.000Z"
