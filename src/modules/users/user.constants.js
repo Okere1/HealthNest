@@ -1,0 +1,21 @@
+const USER_STATUS = {
+  ACTIVE: "ACTIVE",
+  INACTIVE: "INACTIVE",
+  SUSPENDED: "SUSPENDED",
+};
+
+const USER_GENDER = {
+  MALE: "MALE",
+  FEMALE: "FEMALE",
+  OTHER: "OTHER",
+};
+
+const USER_ROLES = {
+  PATIENT: "PATIENT",
+};
+
+module.exports = {
+  USER_STATUS,
+  USER_GENDER,
+  USER_ROLES,
+};

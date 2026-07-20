@@ -4,3 +4,22 @@
     at NativeConnection.openUri (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\connection.js:1111:11)
     at async connectDatabase (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\database\connection.js:7:5)
     at async startServer (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\server.js:8:5)
+2026-07-19 22:25:05 [ERROR] TypeError: toPublicUser is not a function
+    at Object.register (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\users\user.service.js:41:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\users\user.controller.js:6:18)
+2026-07-19 22:29:14 [ERROR] ConflictError: An account with this email already exists.
+    at Object.register (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\users\user.service.js:18:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\users\user.controller.js:6:18)
+2026-07-19 22:31:19 [ERROR] ConflictError: An account with this email already exists.
+    at Object.register (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\users\user.service.js:18:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async register (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\users\user.controller.js:6:18)
+2026-07-20 00:55:02 [ERROR] UnauthorizedError: Invalid email or password.
+    at Object.login (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\auth\auth.service.js:24:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\auth\auth.controller.js:7:20)
+2026-07-20 01:15:22 [ERROR] TypeError: getRefreshTokenExpiryDate is not a function
+    at Object.login (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\auth\auth.service.js:54:28)
+    at async login (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\auth\auth.controller.js:7:20)
