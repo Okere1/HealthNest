@@ -9,6 +9,9 @@ servers:
   - url: http://localhost:5000/api/v1
     description: Local Development
 
+  - url: https://healthnest-juho.onrender.com/api/v1
+    description: Production (Render)
+
 tags:
   - name: Authentication
   - name: Users
