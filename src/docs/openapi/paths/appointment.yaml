@@ -1,0 +1,70 @@
+post:
+  tags:
+    - Appointments
+
+  summary: Create Appointment
+
+  description: |
+    Creates a medical appointment for the authenticated user.
+
+  operationId: createAppointment
+
+  security:
+    - bearerAuth: []
+
+  requestBody:
+    required: true
+
+    content:
+      application/json:
+        schema:
+          $ref: "../schemas/appointment.yaml#/CreateAppointmentRequest"
+
+        example:
+          hospitalName: Lagoon Hospital
+          doctorSpeciality: Cardiologist
+          doctorName: Dr. Michael Ade
+          appointmentDate: "2026-08-10"
+          appointmentTime: "09:30"
+          note: Annual heart checkup
+
+  responses:
+    "201":
+      description: Appointment created successfully.
+
+      content:
+        application/json:
+          schema:
+            $ref: "../schemas/appointment.yaml#/Appointment"
+
+          example:
+            success: true
+            message: Appointment created successfully.
+            data:
+              id: 686eb58c1942547e95ce5e61
+              hospitalName: Lagoon Hospital
+              doctorSpeciality: Cardiologist
+              doctorName: Dr. Michael Ade
+              appointmentDate: "2026-08-10"
+              appointmentTime: "09:30"
+              note: Annual heart checkup
+            errors: null
+            meta: null
+            timestamp: "2026-07-26T18:30:00.000Z"
+
+get:
+  tags:
+    - Appointments
+
+  summary: Get User Appointments
+
+  description: Returns all appointments belonging to the authenticated user.
+
+  operationId: getAppointments
+
+  security:
+    - bearerAuth: []
+
+  responses:
+    "200":
+      description: Appointment list retrieved successfully.

@@ -16,6 +16,8 @@ tags:
   - name: Authentication
   - name: Users
   - name: Health
+  - name: Medications
+  - name: Appointments
 
 paths:
   /health:
@@ -29,6 +31,12 @@ paths:
 
   /auth/me:
     $ref: "./paths/auth.yaml#/me"
+
+  /medications:
+    $ref: "./paths/medication.yaml"
+
+  /appointments:
+    $ref: "./paths/appointment.yaml"
 
 components:
   schemas:
@@ -49,6 +57,24 @@ components:
 
     LoginResponse:
       $ref: "./schemas/auth.yaml#/LoginResponse"
+
+    Medication:
+      $ref: "./schemas/medication.yaml#/Medication"
+
+    CreateMedicationRequest:
+      $ref: "./schemas/medication.yaml#/CreateMedicationRequest"
+
+    UpdateMedicationRequest:
+      $ref: "./schemas/medication.yaml#/UpdateMedicationRequest"
+
+    Appointment:
+      $ref: "./schemas/appointment.yaml#/Appointment"
+
+    CreateAppointmentRequest:
+      $ref: "./schemas/appointment.yaml#/CreateAppointmentRequest"
+
+    UpdateAppointmentRequest:
+      $ref: "./schemas/appointment.yaml#/UpdateAppointmentRequest"
 
   securitySchemes:
     bearerAuth:

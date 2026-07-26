@@ -188,3 +188,27 @@
     at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
     at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
     at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-26 23:08:11 [ERROR] ForbiddenError: You are not authorized to perform this action.
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authorize.js:12:9
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:81:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-07-26 23:19:11 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at param (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:600:14)
+    at param (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:664:3)
+2026-07-26 23:19:26 [ERROR] NotFoundError: Medication not found.
+    at findUserOwnedResource (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\utils\resourceOwnership.js:24:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getMedicationById (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.controller.js:38:24)
+2026-07-26 23:34:40 [ERROR] ValidationError: Validation failed
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\validate.js:20:12
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

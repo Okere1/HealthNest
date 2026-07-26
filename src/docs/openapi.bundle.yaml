@@ -12,6 +12,8 @@ tags:
   - name: Authentication
   - name: Users
   - name: Health
+  - name: Medications
+  - name: Appointments
 paths:
   /health:
     get:
@@ -154,6 +156,123 @@ paths:
                 errors: null
                 meta: null
                 timestamp: '2026-07-20T14:32:10.000Z'
+  /medications:
+    post:
+      tags:
+        - Medications
+      summary: Create Medication
+      description: |
+        Creates a medication schedule for the authenticated user.
+      operationId: createMedication
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateMedicationRequest'
+            example:
+              name: Paracetamol
+              dosage: 500mg
+              frequency: Twice Daily
+              reminderTime:
+                - '08:00'
+                - '20:00'
+              startDate: '2026-07-26'
+              endDate: '2026-08-05'
+              instructions: Take after meals
+      responses:
+        '201':
+          description: Medication created successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Medication'
+              example:
+                success: true
+                message: Medication created successfully.
+                data:
+                  id: 686eb58c1942547e95ce5e61
+                  name: Paracetamol
+                  dosage: 500mg
+                  frequency: Twice Daily
+                  reminderTime:
+                    - '08:00'
+                    - '20:00'
+                  status: Active
+                  startDate: '2026-07-26'
+                  endDate: '2026-08-05'
+                  instructions: Take after meals
+                errors: null
+                meta: null
+                timestamp: '2026-07-26T18:30:00.000Z'
+    get:
+      tags:
+        - Medications
+      summary: Get User Medications
+      description: Returns all medications belonging to the authenticated user.
+      operationId: getMedications
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Medication list retrieved successfully.
+  /appointments:
+    post:
+      tags:
+        - Appointments
+      summary: Create Appointment
+      description: |
+        Creates a medical appointment for the authenticated user.
+      operationId: createAppointment
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateAppointmentRequest'
+            example:
+              hospitalName: Lagoon Hospital
+              doctorSpeciality: Cardiologist
+              doctorName: Dr. Michael Ade
+              appointmentDate: '2026-08-10'
+              appointmentTime: '09:30'
+              note: Annual heart checkup
+      responses:
+        '201':
+          description: Appointment created successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Appointment'
+              example:
+                success: true
+                message: Appointment created successfully.
+                data:
+                  id: 686eb58c1942547e95ce5e61
+                  hospitalName: Lagoon Hospital
+                  doctorSpeciality: Cardiologist
+                  doctorName: Dr. Michael Ade
+                  appointmentDate: '2026-08-10'
+                  appointmentTime: '09:30'
+                  note: Annual heart checkup
+                errors: null
+                meta: null
+                timestamp: '2026-07-26T18:30:00.000Z'
+    get:
+      tags:
+        - Appointments
+      summary: Get User Appointments
+      description: Returns all appointments belonging to the authenticated user.
+      operationId: getAppointments
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Appointment list retrieved successfully.
 components:
   schemas:
     ApiResponse:
@@ -285,6 +404,143 @@ components:
         timestamp:
           type: string
           format: date-time
+    Medication:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        message:
+          type: string
+          example: Medication created successfully.
+        data:
+          type: object
+          properties:
+            id:
+              type: string
+            name:
+              type: string
+            dosage:
+              type: string
+            frequency:
+              type: string
+            reminderTime:
+              type: array
+              items:
+                type: string
+            startDate:
+              type: string
+              format: date
+            endDate:
+              type: string
+              format: date
+            instructions:
+              type: string
+            status:
+              type: string
+              example: Active
+        errors:
+          nullable: true
+        meta:
+          nullable: true
+        timestamp:
+          type: string
+          format: date-time
+    CreateMedicationRequest:
+      type: object
+      required:
+        - name
+        - dosage
+        - startDate
+      properties:
+        name:
+          type: string
+          example: Paracetamol
+        dosage:
+          type: string
+          example: 500mg
+        frequency:
+          type: string
+          example: Twice Daily
+        reminderTime:
+          type: array
+          items:
+            type: string
+          example:
+            - '08:00'
+            - '20:00'
+        startDate:
+          type: string
+          format: date
+        endDate:
+          type: string
+          format: date
+        instructions:
+          type: string
+    UpdateMedicationRequest:
+      allOf:
+        - $ref: '#/components/schemas/CreateMedicationRequest'
+    Appointment:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        message:
+          type: string
+          example: Appointment created successfully.
+        data:
+          type: object
+          properties:
+            id:
+              type: string
+            hospitalName:
+              type: string
+            doctorSpeciality:
+              type: string
+            doctorName:
+              type: string
+            appointmentDate:
+              type: string
+              format: date
+            appointmentTime:
+              type: string
+            note:
+              type: string
+        errors:
+          nullable: true
+        meta:
+          nullable: true
+        timestamp:
+          type: string
+          format: date-time
+    CreateAppointmentRequest:
+      type: object
+      required:
+        - hospitalName
+        - appointmentDate
+        - appointmentTime
+      properties:
+        hospitalName:
+          type: string
+          example: Lagoon Hospital
+        doctorSpeciality:
+          type: string
+          example: Cardiologist
+        doctorName:
+          type: string
+          example: Dr. Michael Ade
+        appointmentDate:
+          type: string
+          format: date
+        appointmentTime:
+          type: string
+          example: '09:30'
+        note:
+          type: string
+    UpdateAppointmentRequest:
+      allOf:
+        - $ref: '#/components/schemas/CreateAppointmentRequest'
     HealthData:
       type: object
       properties:

@@ -10,12 +10,7 @@ const USER_GENDER = {
   OTHER: "OTHER",
 };
 
-const USER_ROLES = {
-  PATIENT: "PATIENT",
-};
-
 module.exports = {
   USER_STATUS,
   USER_GENDER,
-  USER_ROLES,
 };

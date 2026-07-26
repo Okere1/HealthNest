@@ -1,0 +1,83 @@
+CreateAppointmentRequest:
+  type: object
+
+  required:
+    - hospitalName
+    - appointmentDate
+    - appointmentTime
+
+  properties:
+    hospitalName:
+      type: string
+      example: Lagoon Hospital
+
+    doctorSpeciality:
+      type: string
+      example: Cardiologist
+
+    doctorName:
+      type: string
+      example: Dr. Michael Ade
+
+    appointmentDate:
+      type: string
+      format: date
+
+    appointmentTime:
+      type: string
+      example: "09:30"
+
+    note:
+      type: string
+
+Appointment:
+  type: object
+
+  properties:
+    success:
+      type: boolean
+      example: true
+
+    message:
+      type: string
+      example: Appointment created successfully.
+
+    data:
+      type: object
+
+      properties:
+        id:
+          type: string
+
+        hospitalName:
+          type: string
+
+        doctorSpeciality:
+          type: string
+
+        doctorName:
+          type: string
+
+        appointmentDate:
+          type: string
+          format: date
+
+        appointmentTime:
+          type: string
+
+        note:
+          type: string
+
+    errors:
+      nullable: true
+
+    meta:
+      nullable: true
+
+    timestamp:
+      type: string
+      format: date-time
+
+UpdateAppointmentRequest:
+  allOf:
+    - $ref: "#/CreateAppointmentRequest"

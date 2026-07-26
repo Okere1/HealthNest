@@ -1,0 +1,77 @@
+post:
+  tags:
+    - Medications
+
+  summary: Create Medication
+
+  description: |
+    Creates a medication schedule for the authenticated user.
+
+  operationId: createMedication
+
+  security:
+    - bearerAuth: []
+
+  requestBody:
+    required: true
+
+    content:
+      application/json:
+        schema:
+          $ref: "../schemas/medication.yaml#/CreateMedicationRequest"
+
+        example:
+          name: Paracetamol
+          dosage: 500mg
+          frequency: Twice Daily
+          reminderTime:
+            - "08:00"
+            - "20:00"
+          startDate: "2026-07-26"
+          endDate: "2026-08-05"
+          instructions: Take after meals
+
+  responses:
+    "201":
+      description: Medication created successfully.
+
+      content:
+        application/json:
+          schema:
+            $ref: "../schemas/medication.yaml#/Medication"
+
+          example:
+            success: true
+            message: Medication created successfully.
+            data:
+              id: 686eb58c1942547e95ce5e61
+              name: Paracetamol
+              dosage: 500mg
+              frequency: Twice Daily
+              reminderTime:
+                - "08:00"
+                - "20:00"
+              status: Active
+              startDate: "2026-07-26"
+              endDate: "2026-08-05"
+              instructions: Take after meals
+            errors: null
+            meta: null
+            timestamp: "2026-07-26T18:30:00.000Z"
+
+get:
+  tags:
+    - Medications
+
+  summary: Get User Medications
+
+  description: Returns all medications belonging to the authenticated user.
+
+  operationId: getMedications
+
+  security:
+    - bearerAuth: []
+
+  responses:
+    "200":
+      description: Medication list retrieved successfully.

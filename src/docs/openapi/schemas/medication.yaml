@@ -1,0 +1,104 @@
+CreateMedicationRequest:
+  type: object
+
+  required:
+    - name
+    - dosage
+    - startDate
+
+  properties:
+    name:
+      type: string
+      example: Paracetamol
+
+    dosage:
+      type: string
+      example: 500mg
+
+    frequency:
+      type: string
+      example: Twice Daily
+
+    reminderTime:
+      type: array
+
+      items:
+        type: string
+
+      example:
+        - "08:00"
+        - "20:00"
+
+    startDate:
+      type: string
+      format: date
+
+    endDate:
+      type: string
+      format: date
+
+    instructions:
+      type: string
+
+Medication:
+  type: object
+
+  properties:
+    success:
+      type: boolean
+      example: true
+
+    message:
+      type: string
+      example: Medication created successfully.
+
+    data:
+      type: object
+
+      properties:
+        id:
+          type: string
+
+        name:
+          type: string
+
+        dosage:
+          type: string
+
+        frequency:
+          type: string
+
+        reminderTime:
+          type: array
+
+          items:
+            type: string
+
+        startDate:
+          type: string
+          format: date
+
+        endDate:
+          type: string
+          format: date
+
+        instructions:
+          type: string
+
+        status:
+          type: string
+          example: Active
+
+    errors:
+      nullable: true
+
+    meta:
+      nullable: true
+
+    timestamp:
+      type: string
+      format: date-time
+
+UpdateMedicationRequest:
+  allOf:
+    - $ref: "#/CreateMedicationRequest"
