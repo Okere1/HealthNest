@@ -1,4 +1,4 @@
-const ApiResponse = require("../../common/utils/ApiResponse.js");
+const ApiResponse = require("../../common/utils/apiResponse");
 const medicationService = require("./medication.service.js");
 
 const createMedication = async (req, res, next) => {

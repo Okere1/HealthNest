@@ -1,4 +1,4 @@
-const ApiResponse = require("../../common/utils/ApiResponse");
+const ApiResponse = require("../../common/utils/apiResponse");
 const appointmentService = require("./appointment.service");
 
 const createAppointment = async (req, res, next) => {

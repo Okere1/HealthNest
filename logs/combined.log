@@ -3091,3 +3091,41 @@ API Version : v1
 2026-07-26 23:47:43 [HTTP] ::1 - - [26/Jul/2026:22:47:43 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
 2026-07-26 23:47:43 [HTTP] ::1 - - [26/Jul/2026:22:47:43 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
 2026-07-26 23:47:43 [HTTP] ::1 - - [26/Jul/2026:22:47:43 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-26 23:47:44 [HTTP] ::1 - - [26/Jul/2026:22:47:44 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-26 23:47:52 [HTTP] ::1 - - [26/Jul/2026:22:47:52 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-26 23:47:52 [HTTP] ::1 - - [26/Jul/2026:22:47:52 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-26 23:47:52 [HTTP] ::1 - - [26/Jul/2026:22:47:52 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-26 23:47:52 [HTTP] ::1 - - [26/Jul/2026:22:47:52 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-26 23:47:52 [HTTP] ::1 - - [26/Jul/2026:22:47:52 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-26 23:47:54 [HTTP] ::1 - - [26/Jul/2026:22:47:54 +0000] "GET /api-docs.json HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-26 23:47:54 [HTTP] ::1 - - [26/Jul/2026:22:47:54 +0000] "GET /favicon.ico HTTP/1.1" 404 130 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+2026-07-26 23:56:50 [INFO] MongoDB connection established.
+2026-07-26 23:56:50 [INFO] Database: healthnest
+2026-07-26 23:56:50 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-26 23:56:50 [INFO] MongoDB connected successfully.
+2026-07-26 23:56:50 [INFO] Database: healthnest
+2026-07-26 23:56:50 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-26 23:56:50 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-26 23:57:25 [INFO] MongoDB connection established.
+2026-07-26 23:57:25 [INFO] Database: healthnest
+2026-07-26 23:57:25 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-26 23:57:25 [INFO] MongoDB connected successfully.
+2026-07-26 23:57:25 [INFO] Database: healthnest
+2026-07-26 23:57:25 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-26 23:57:25 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
