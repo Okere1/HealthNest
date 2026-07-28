@@ -1,16 +1,18 @@
-import * as medicationRepository from "./medication.repository.js";
-import getPagination from "../../common/utils/pagination.js";
-import { findUserOwnedResource } from "../../common/utils/resourceOwnership.js";
-import Medication from "./medication.model.js";
+const medicationRepository = require("./medication.repository");
+const getPagination = require("../../common/utils/pagination");
+const {
+  findUserOwnedResource,
+} = require("../../common/utils/resourceOwnership");
+const Medication = require("./medication.model");
 
-export const createMedication = async (userId, payload) => {
+const createMedication = async (userId, payload) => {
   return medicationRepository.createMedication({
     ...payload,
     user: userId,
   });
 };
 
-export const getMedications = async (userId, query) => {
+const getMedications = async (userId, query) => {
   const { skip, limit } = getPagination(query);
 
   const medications = await medicationRepository.findMedications(
@@ -36,11 +38,11 @@ export const getMedications = async (userId, query) => {
   };
 };
 
-export const getMedicationById = async (medicationId, userId) => {
+const getMedicationById = async (medicationId, userId) => {
   return findUserOwnedResource(Medication, medicationId, userId, "Medication");
 };
 
-export const updateMedication = async (medicationId, userId, payload) => {
+const updateMedication = async (medicationId, userId, payload) => {
   const medication = await findUserOwnedResource(
     Medication,
     medicationId,
@@ -51,7 +53,7 @@ export const updateMedication = async (medicationId, userId, payload) => {
   return medicationRepository.updateMedication(medication, payload);
 };
 
-export const deleteMedication = async (medicationId, userId) => {
+const deleteMedication = async (medicationId, userId) => {
   const medication = await findUserOwnedResource(
     Medication,
     medicationId,
@@ -60,4 +62,12 @@ export const deleteMedication = async (medicationId, userId) => {
   );
 
   await medicationRepository.deleteMedication(medication);
+};
+
+module.exports = {
+  createMedication,
+  getMedications,
+  getMedicationById,
+  updateMedication,
+  deleteMedication,
 };

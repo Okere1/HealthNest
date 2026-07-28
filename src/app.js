@@ -13,8 +13,6 @@ const ApiResponse = require("./common/utils/apiResponse");
 const swaggerUi = require("swagger-ui-express");
 const openApiSpec = require("./docs");
 
-console.log(openApiSpec.paths);
-
 const app = express();
 
 /**
@@ -37,7 +35,7 @@ app.use(
 // Compress response bodies
 app.use(compression());
 
-/** 
+/**
  * HTTP Request Logging
  *
  * Morgan formats the request.

@@ -3129,3 +3129,529 @@ Port        : 5000
 API Version : v1
 =========================================
 
+2026-07-26 23:58:47 [INFO] MongoDB connection established.
+2026-07-26 23:58:47 [INFO] Database: healthnest
+2026-07-26 23:58:47 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-26 23:58:47 [INFO] MongoDB connected successfully.
+2026-07-26 23:58:47 [INFO] Database: healthnest
+2026-07-26 23:58:47 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-26 23:58:47 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 08:27:25 [WARN] MongoDB disconnected.
+2026-07-27 16:59:48 [INFO] MongoDB connection established.
+2026-07-27 16:59:48 [INFO] Database: healthnest
+2026-07-27 16:59:48 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 16:59:48 [INFO] MongoDB connected successfully.
+2026-07-27 16:59:48 [INFO] Database: healthnest
+2026-07-27 16:59:48 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 16:59:48 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 16:59:50 [HTTP] ::1 - - [27/Jul/2026:15:59:50 +0000] "GET /api/v1/health HTTP/1.1" 200 200 "-" "PostmanRuntime/7.55.1"
+2026-07-27 17:02:39 [INFO] MongoDB connection established.
+2026-07-27 17:02:39 [INFO] Database: healthnest
+2026-07-27 17:02:39 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-27 17:02:39 [INFO] MongoDB connected successfully.
+2026-07-27 17:02:39 [INFO] Database: healthnest
+2026-07-27 17:02:39 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-27 17:02:39 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 19:59:37 [INFO] MongoDB connection established.
+2026-07-27 19:59:37 [INFO] Database: healthnest
+2026-07-27 19:59:37 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 19:59:37 [INFO] MongoDB connected successfully.
+2026-07-27 19:59:37 [INFO] Database: healthnest
+2026-07-27 19:59:37 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 19:59:37 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 19:59:46 [HTTP] ::1 - - [27/Jul/2026:18:59:46 +0000] "GET /api/v1/health HTTP/1.1" 200 200 "-" "PostmanRuntime/7.55.1"
+2026-07-27 20:00:17 [HTTP] ::1 - - [27/Jul/2026:19:00:17 +0000] "GET /api/v1/auth/me HTTP/1.1" 200 580 "-" "PostmanRuntime/7.55.1"
+2026-07-27 20:03:20 [INFO] MongoDB connection established.
+2026-07-27 20:03:20 [INFO] Database: healthnest
+2026-07-27 20:03:20 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 20:03:20 [INFO] MongoDB connected successfully.
+2026-07-27 20:03:20 [INFO] Database: healthnest
+2026-07-27 20:03:20 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 20:03:20 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 20:04:28 [INFO] MongoDB connection established.
+2026-07-27 20:04:28 [INFO] Database: healthnest
+2026-07-27 20:04:28 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 20:04:28 [INFO] MongoDB connected successfully.
+2026-07-27 20:04:28 [INFO] Database: healthnest
+2026-07-27 20:04:28 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 20:04:28 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 22:38:58 [INFO] MongoDB connection established.
+2026-07-27 22:38:58 [INFO] Database: healthnest
+2026-07-27 22:38:58 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:38:58 [INFO] MongoDB connected successfully.
+2026-07-27 22:38:58 [INFO] Database: healthnest
+2026-07-27 22:38:58 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:38:58 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 22:39:10 [HTTP] ::1 - - [27/Jul/2026:21:39:10 +0000] "GET /api/v1/health HTTP/1.1" 200 200 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:42:54 [INFO] MongoDB connection established.
+2026-07-27 22:42:54 [INFO] Database: healthnest
+2026-07-27 22:42:54 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:42:54 [INFO] MongoDB connected successfully.
+2026-07-27 22:42:54 [INFO] Database: healthnest
+2026-07-27 22:42:54 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:42:54 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 22:43:27 [INFO] MongoDB connection established.
+2026-07-27 22:43:27 [INFO] Database: healthnest
+2026-07-27 22:43:27 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-27 22:43:27 [INFO] MongoDB connected successfully.
+2026-07-27 22:43:27 [INFO] Database: healthnest
+2026-07-27 22:43:27 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-27 22:43:27 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 22:44:02 [INFO] MongoDB connection established.
+2026-07-27 22:44:02 [INFO] Database: healthnest
+2026-07-27 22:44:02 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:44:02 [INFO] MongoDB connected successfully.
+2026-07-27 22:44:02 [INFO] Database: healthnest
+2026-07-27 22:44:02 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:44:02 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 22:44:31 [INFO] MongoDB connection established.
+2026-07-27 22:44:31 [INFO] Database: healthnest
+2026-07-27 22:44:31 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-27 22:44:31 [INFO] MongoDB connected successfully.
+2026-07-27 22:44:31 [INFO] Database: healthnest
+2026-07-27 22:44:31 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-27 22:44:31 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 22:44:47 [INFO] MongoDB connection established.
+2026-07-27 22:44:47 [INFO] Database: healthnest
+2026-07-27 22:44:47 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:44:47 [INFO] MongoDB connected successfully.
+2026-07-27 22:44:47 [INFO] Database: healthnest
+2026-07-27 22:44:47 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:44:47 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 22:45:27 [INFO] MongoDB connection established.
+2026-07-27 22:45:27 [INFO] Database: healthnest
+2026-07-27 22:45:27 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:45:27 [INFO] MongoDB connected successfully.
+2026-07-27 22:45:27 [INFO] Database: healthnest
+2026-07-27 22:45:27 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:45:27 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 22:49:32 [HTTP] ::1 - - [27/Jul/2026:21:49:32 +0000] "POST /api/v1/reminders HTTP/1.1" 201 509 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:49:49 [HTTP] ::1 - - [27/Jul/2026:21:49:49 +0000] "GET /api/v1/reminders HTTP/1.1" 200 583 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:50:02 [HTTP] ::1 - - [27/Jul/2026:21:50:02 +0000] "GET /api/v1/reminders/6a67d26ce46c778d843c0259 HTTP/1.1" 200 511 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:50:09 [HTTP] ::1 - - [27/Jul/2026:21:50:09 +0000] "PATCH /api/v1/reminders/6a67d26ce46c778d843c0259 HTTP/1.1" 200 511 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:50:16 [HTTP] ::1 - - [27/Jul/2026:21:50:16 +0000] "DELETE /api/v1/reminders/6a67d26ce46c778d843c0259 HTTP/1.1" 200 136 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:50:21 [HTTP] ::1 - - [27/Jul/2026:21:50:21 +0000] "POST /api/v1/reminders HTTP/1.1" 201 509 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:50:28 [HTTP] ::1 - - [27/Jul/2026:21:50:28 +0000] "GET /api/v1/reminders HTTP/1.1" 200 583 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:50:33 [HTTP] ::1 - - [27/Jul/2026:21:50:33 +0000] "GET /api/v1/reminders/6a67d29de46c778d843c025a HTTP/1.1" 200 511 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:50:39 [HTTP] ::1 - - [27/Jul/2026:21:50:39 +0000] "PATCH /api/v1/reminders/6a67d29de46c778d843c025a HTTP/1.1" 200 511 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:52:44 [INFO] MongoDB connection established.
+2026-07-27 22:52:44 [INFO] Database: healthnest
+2026-07-27 22:52:44 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:52:44 [INFO] MongoDB connected successfully.
+2026-07-27 22:52:44 [INFO] Database: healthnest
+2026-07-27 22:52:44 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 22:52:44 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 22:53:25 [ERROR] NotFoundError: Medication not found.
+    at Object.createReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.service.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.controller.js:9:22)
+2026-07-27 22:53:25 [HTTP] ::1 - - [27/Jul/2026:21:53:25 +0000] "POST /api/v1/reminders HTTP/1.1" 404 128 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:53:44 [ERROR] NotFoundError: Medication not found.
+    at Object.createReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.service.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.controller.js:9:22)
+2026-07-27 22:53:44 [HTTP] ::1 - - [27/Jul/2026:21:53:44 +0000] "POST /api/v1/reminders HTTP/1.1" 404 128 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:53:56 [ERROR] NotFoundError: Medication not found.
+    at Object.createReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.service.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.controller.js:9:22)
+2026-07-27 22:53:56 [HTTP] ::1 - - [27/Jul/2026:21:53:56 +0000] "POST /api/v1/reminders HTTP/1.1" 404 128 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:54:23 [HTTP] ::1 - - [27/Jul/2026:21:54:23 +0000] "GET /api/v1/reminders HTTP/1.1" 200 585 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:55:56 [INFO] User authenticated successfully.
+2026-07-27 22:55:56 [HTTP] ::1 - - [27/Jul/2026:21:55:56 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 758 "-" "PostmanRuntime/7.55.1"
+2026-07-27 22:56:32 [ERROR] NotFoundError: Medication not found.
+    at Object.createReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.service.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.controller.js:9:22)
+2026-07-27 22:56:32 [HTTP] ::1 - - [27/Jul/2026:21:56:32 +0000] "POST /api/v1/reminders HTTP/1.1" 404 128 "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:03:45 [ERROR] NotFoundError: Medication not found.
+    at Object.createReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.service.js:27:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.controller.js:9:22)
+2026-07-27 23:03:45 [HTTP] ::1 - - [27/Jul/2026:22:03:45 +0000] "POST /api/v1/reminders HTTP/1.1" 404 128 "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:04:45 [ERROR] TypeError: medicationRepository.findMedications is not a function
+    at Object.getMedications (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.service.js:18:50)
+    at getMedications (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.controller.js:22:49)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:81:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-07-27 23:04:45 [HTTP] ::1 - - [27/Jul/2026:22:04:45 +0000] "GET /api/v1/medications HTTP/1.1" 500 - "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:05:13 [ERROR] TypeError: medicationRepository.createMedication is not a function
+    at Object.createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.repository.js:9:31)
+    at Object.createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.service.js:9:31)
+    at createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.controller.js:6:48)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\validate.js:13:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-07-27 23:05:13 [HTTP] ::1 - - [27/Jul/2026:22:05:13 +0000] "POST /api/v1/medications HTTP/1.1" 500 - "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:05:48 [INFO] MongoDB connection established.
+2026-07-27 23:05:48 [INFO] Database: healthnest
+2026-07-27 23:05:48 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:05:48 [INFO] MongoDB connected successfully.
+2026-07-27 23:05:48 [INFO] Database: healthnest
+2026-07-27 23:05:48 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:05:48 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 23:06:04 [ERROR] TypeError: medicationRepository.createMedication is not a function
+    at Object.createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.repository.js:9:31)
+    at Object.createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.service.js:9:31)
+    at createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.controller.js:6:48)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\validate.js:13:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-07-27 23:06:04 [HTTP] ::1 - - [27/Jul/2026:22:06:04 +0000] "POST /api/v1/medications HTTP/1.1" 500 - "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:07:12 [INFO] MongoDB connection established.
+2026-07-27 23:07:12 [INFO] Database: healthnest
+2026-07-27 23:07:12 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:07:12 [INFO] MongoDB connected successfully.
+2026-07-27 23:07:12 [INFO] Database: healthnest
+2026-07-27 23:07:12 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:07:12 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 23:08:08 [ERROR] TypeError: medicationRepository.createMedication is not a function
+    at Object.createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.repository.js:9:31)
+    at Object.createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.service.js:9:31)
+    at createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.controller.js:6:48)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\validate.js:13:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-07-27 23:08:08 [HTTP] ::1 - - [27/Jul/2026:22:08:08 +0000] "POST /api/v1/medications HTTP/1.1" 500 - "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:13:49 [INFO] MongoDB connection established.
+2026-07-27 23:13:49 [INFO] Database: healthnest
+2026-07-27 23:13:49 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:13:49 [INFO] MongoDB connected successfully.
+2026-07-27 23:13:49 [INFO] Database: healthnest
+2026-07-27 23:13:49 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:13:49 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 23:13:57 [ERROR] TypeError: medicationRepository.createMedication is not a function
+    at Object.createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.repository.js:9:31)
+    at Object.createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.service.js:9:31)
+    at createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.controller.js:6:48)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\validate.js:13:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-07-27 23:13:57 [HTTP] ::1 - - [27/Jul/2026:22:13:57 +0000] "POST /api/v1/medications HTTP/1.1" 500 - "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:14:47 [INFO] MongoDB connection established.
+2026-07-27 23:14:47 [INFO] Database: healthnest
+2026-07-27 23:14:47 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:14:47 [INFO] MongoDB connected successfully.
+2026-07-27 23:14:47 [INFO] Database: healthnest
+2026-07-27 23:14:47 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:14:47 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 23:16:54 [INFO] MongoDB connection established.
+2026-07-27 23:16:54 [INFO] Database: healthnest
+2026-07-27 23:16:54 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:16:54 [INFO] MongoDB connected successfully.
+2026-07-27 23:16:54 [INFO] Database: healthnest
+2026-07-27 23:16:54 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:16:54 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 23:16:58 [HTTP] ::1 - - [27/Jul/2026:22:16:58 +0000] "POST /api/v1/medications HTTP/1.1" 201 513 "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:17:48 [INFO] MongoDB connection established.
+2026-07-27 23:17:48 [INFO] Database: healthnest
+2026-07-27 23:17:48 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-27 23:17:48 [INFO] MongoDB connected successfully.
+2026-07-27 23:17:48 [INFO] Database: healthnest
+2026-07-27 23:17:48 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-27 23:17:48 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 23:17:54 [ERROR] TypeError: medicationRepository.createMedication is not a function
+    at Object.createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.repository.js:9:31)
+    at Object.createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.service.js:9:31)
+    at createMedication (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\medications\medication.controller.js:6:48)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\validate.js:13:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-07-27 23:17:54 [HTTP] ::1 - - [27/Jul/2026:22:17:54 +0000] "POST /api/v1/medications HTTP/1.1" 500 - "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:19:00 [INFO] MongoDB connection established.
+2026-07-27 23:19:00 [INFO] Database: healthnest
+2026-07-27 23:19:00 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:19:00 [INFO] MongoDB connected successfully.
+2026-07-27 23:19:00 [INFO] Database: healthnest
+2026-07-27 23:19:00 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:19:00 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-27 23:19:23 [HTTP] ::1 - - [27/Jul/2026:22:19:23 +0000] "POST /api/v1/medications HTTP/1.1" 201 513 "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:19:58 [HTTP] ::1 - - [27/Jul/2026:22:19:58 +0000] "GET /api/v1/medications HTTP/1.1" 200 - "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:20:18 [HTTP] ::1 - - [27/Jul/2026:22:20:18 +0000] "POST /api/v1/reminders HTTP/1.1" 201 501 "-" "PostmanRuntime/7.55.1"
+2026-07-27 23:31:11 [INFO] MongoDB connection established.
+2026-07-27 23:31:11 [INFO] Database: healthnest
+2026-07-27 23:31:11 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:31:11 [INFO] MongoDB connected successfully.
+2026-07-27 23:31:11 [INFO] Database: healthnest
+2026-07-27 23:31:11 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-27 23:31:11 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-28 12:12:51 [WARN] MongoDB disconnected.
+2026-07-28 12:41:05 [INFO] MongoDB connection established.
+2026-07-28 12:41:05 [INFO] Database: healthnest
+2026-07-28 12:41:05 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 12:41:05 [INFO] MongoDB connected successfully.
+2026-07-28 12:41:05 [INFO] Database: healthnest
+2026-07-28 12:41:05 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 12:41:06 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-28 12:41:26 [INFO] User authenticated successfully.
+2026-07-28 12:41:26 [HTTP] ::1 - - [28/Jul/2026:11:41:26 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 758 "-" "PostmanRuntime/7.55.1"
+2026-07-28 12:52:33 [ERROR] MongoServerSelectionError: Socket 'secureConnect' timed out after 30387ms (connectTimeoutMS: 30000)
+    at Topology.selectServer (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\sdam\topology.js:348:38)
+    at async executeOperationWithRetries (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\operations\execute_operation.js:157:18)
+    at async executeOperation (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async FindCursor._initialize (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\abstract_cursor.js:620:27)
+    at async FindCursor.fetchBatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\abstract_cursor.js:654:13)
+    at async FindCursor.next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\abstract_cursor.js:326:17)
+    at async Collection.findOne (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\query.js:2773:15)
+    at async maybeTracedQueryExec (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\query.js:4801:65)
+2026-07-28 12:52:33 [HTTP] ::1 - - [28/Jul/2026:11:52:33 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 - "-" "PostmanRuntime/7.55.1"
+2026-07-28 12:53:37 [WARN] MongoDB disconnected.
+2026-07-28 12:53:37 [INFO] MongoDB connection established.
+2026-07-28 12:53:37 [INFO] Database: healthnest
+2026-07-28 12:53:37 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 12:53:54 [INFO] User authenticated successfully.
+2026-07-28 12:53:54 [HTTP] ::1 - - [28/Jul/2026:11:53:54 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 758 "-" "PostmanRuntime/7.55.1"
+2026-07-28 13:10:45 [WARN] MongoDB disconnected.
+2026-07-28 13:33:52 [INFO] MongoDB connection established.
+2026-07-28 13:33:52 [INFO] Database: healthnest
+2026-07-28 13:33:52 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 13:34:13 [WARN] MongoDB disconnected.
+2026-07-28 13:34:24 [INFO] MongoDB connection established.
+2026-07-28 13:34:24 [INFO] Database: healthnest
+2026-07-28 13:34:24 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 13:41:56 [INFO] MongoDB connection established.
+2026-07-28 13:41:56 [INFO] Database: healthnest
+2026-07-28 13:41:56 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 13:41:56 [INFO] MongoDB connected successfully.
+2026-07-28 13:41:56 [INFO] Database: healthnest
+2026-07-28 13:41:56 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 13:41:56 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-28 14:03:22 [WARN] MongoDB disconnected.
+2026-07-28 14:07:24 [INFO] MongoDB connection established.
+2026-07-28 14:07:24 [INFO] Database: healthnest
+2026-07-28 14:07:24 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:10:11 [WARN] MongoDB disconnected.
+2026-07-28 14:10:28 [INFO] MongoDB connection established.
+2026-07-28 14:10:28 [INFO] Database: healthnest
+2026-07-28 14:10:28 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:11:22 [INFO] MongoDB connection established.
+2026-07-28 14:11:22 [INFO] Database: healthnest
+2026-07-28 14:11:22 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:11:22 [INFO] MongoDB connected successfully.
+2026-07-28 14:11:22 [INFO] Database: healthnest
+2026-07-28 14:11:22 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:11:22 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-28 14:24:47 [INFO] MongoDB connection established.
+2026-07-28 14:24:47 [INFO] Database: healthnest
+2026-07-28 14:24:47 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:24:47 [INFO] MongoDB connected successfully.
+2026-07-28 14:24:47 [INFO] Database: healthnest
+2026-07-28 14:24:47 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:24:47 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+

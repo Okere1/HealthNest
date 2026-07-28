@@ -1,33 +1,48 @@
-import Medication from "./medication.model.js";
+const Medication = require("./medication.model");
 
-export const createMedication = async (payload) => {
+/**
+ * Create Medication
+ */
+const createMedication = (payload) => {
   return Medication.create(payload);
 };
 
-export const findMedicationById = async (id) => {
-  return Medication.findById(id);
+/**
+ * Find Medications
+ */
+const findMedications = (filter = {}, options = {}) => {
+  return Medication.find(filter)
+    .sort({ createdAt: -1 })
+    .skip(options.skip || 0)
+    .limit(options.limit || 10);
 };
 
-export const findMedication = async (filter) => {
-  return Medication.findOne(filter);
+/**
+ * Count Medications
+ */
+const countMedications = (filter = {}) => {
+  return Medication.countDocuments(filter);
 };
 
-export const findMedications = async (
-  filter,
-  { skip = 0, limit = 10, sort = { createdAt: -1 } } = {},
-) => {
-  return Medication.find(filter).sort(sort).skip(skip).limit(limit);
-};
-
-export const updateMedication = async (medication, payload) => {
-  medication.set(payload);
+/**
+ * Update Medication
+ */
+const updateMedication = async (medication, payload) => {
+  Object.assign(medication, payload);
   return medication.save();
 };
 
-export const deleteMedication = async (medication) => {
+/**
+ * Delete Medication
+ */
+const deleteMedication = (medication) => {
   return medication.deleteOne();
 };
 
-export const countMedications = async (filter) => {
-  return Medication.countDocuments(filter);
+module.exports = {
+  createMedication,
+  findMedications,
+  countMedications,
+  updateMedication,
+  deleteMedication,
 };
