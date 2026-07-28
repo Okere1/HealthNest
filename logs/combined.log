@@ -3655,3 +3655,108 @@ Port        : 5000
 API Version : v1
 =========================================
 
+2026-07-28 14:25:25 [INFO] MongoDB connection established.
+2026-07-28 14:25:25 [INFO] Database: healthnest
+2026-07-28 14:25:25 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:25:25 [INFO] MongoDB connected successfully.
+2026-07-28 14:25:25 [INFO] Database: healthnest
+2026-07-28 14:25:25 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:25:25 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-28 14:28:38 [WARN] MongoDB disconnected.
+2026-07-28 14:28:38 [INFO] MongoDB connection established.
+2026-07-28 14:28:38 [INFO] Database: healthnest
+2026-07-28 14:28:38 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:29:30 [HTTP] ::1 - - [28/Jul/2026:13:29:30 +0000] "POST /api/v1/medications HTTP/1.1" 201 509 "-" "PostmanRuntime/7.55.1"
+2026-07-28 14:30:09 [HTTP] ::1 - - [28/Jul/2026:13:30:09 +0000] "POST /api/v1/reminders HTTP/1.1" 201 503 "-" "PostmanRuntime/7.55.1"
+2026-07-28 14:31:32 [ERROR] ValidationError: Validation failed
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\validate.js:20:12
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-07-28 14:31:32 [HTTP] ::1 - - [28/Jul/2026:13:31:32 +0000] "POST /api/v1/reminders/6a68aebab2df3ed088b6ad35/trigger HTTP/1.1" 400 185 "-" "PostmanRuntime/7.55.1"
+2026-07-28 14:32:06 [ERROR] NotFoundError: Reminder not found.
+    at findUserOwnedResource (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\utils\resourceOwnership.js:24:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.triggerReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.service.js:119:20)
+    at async triggerReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.controller.js:104:22)
+2026-07-28 14:32:06 [HTTP] ::1 - - [28/Jul/2026:13:32:06 +0000] "POST /api/v1/reminders/6a68aebab2df3ed088b6ad35/trigger HTTP/1.1" 404 126 "-" "PostmanRuntime/7.55.1"
+2026-07-28 14:32:43 [HTTP] ::1 - - [28/Jul/2026:13:32:43 +0000] "POST /api/v1/reminders/6a68aee1b2df3ed088b6ad36/trigger HTTP/1.1" 200 549 "-" "PostmanRuntime/7.55.1"
+2026-07-28 14:44:57 [HTTP] ::1 - - [28/Jul/2026:13:44:57 +0000] "POST /api/v1/reminders/6a68aee1b2df3ed088b6ad36/status HTTP/1.1" 404 168 "-" "PostmanRuntime/7.55.1"
+2026-07-28 14:45:22 [HTTP] ::1 - - [28/Jul/2026:13:45:22 +0000] "PATCH /api/v1/reminders/6a68aee1b2df3ed088b6ad36/status HTTP/1.1" 200 638 "-" "PostmanRuntime/7.55.1"
+2026-07-28 14:45:50 [HTTP] ::1 - - [28/Jul/2026:13:45:50 +0000] "GET /api/v1/reminders HTTP/1.1" 200 - "-" "PostmanRuntime/7.55.1"
+2026-07-28 14:57:08 [WARN] MongoDB disconnected.
+2026-07-28 14:57:52 [INFO] MongoDB connection established.
+2026-07-28 14:57:52 [INFO] Database: healthnest
+2026-07-28 14:57:52 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:58:13 [WARN] MongoDB disconnected.
+2026-07-28 14:58:24 [INFO] MongoDB connection established.
+2026-07-28 14:58:24 [INFO] Database: healthnest
+2026-07-28 14:58:24 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 14:59:30 [WARN] MongoDB disconnected.
+2026-07-28 16:19:30 [WARN] MongoDB disconnected.
+2026-07-28 16:23:55 [WARN] MongoDB disconnected.
+2026-07-28 16:32:35 [WARN] MongoDB disconnected.
+2026-07-28 16:34:53 [INFO] MongoDB connection established.
+2026-07-28 16:34:53 [INFO] Database: healthnest
+2026-07-28 16:34:53 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-28 16:34:53 [INFO] MongoDB connected successfully.
+2026-07-28 16:34:53 [INFO] Database: healthnest
+2026-07-28 16:34:53 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-28 16:34:53 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-28 16:36:13 [INFO] MongoDB connection established.
+2026-07-28 16:36:13 [INFO] Database: healthnest
+2026-07-28 16:36:13 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-28 16:36:13 [INFO] MongoDB connected successfully.
+2026-07-28 16:36:13 [INFO] Database: healthnest
+2026-07-28 16:36:13 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-28 16:36:13 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-28 16:37:05 [INFO] MongoDB connection established.
+2026-07-28 16:37:05 [INFO] Database: healthnest
+2026-07-28 16:37:05 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-28 16:37:05 [INFO] MongoDB connected successfully.
+2026-07-28 16:37:05 [INFO] Database: healthnest
+2026-07-28 16:37:05 [INFO] Host: cluster0-shard-00-02.8emvu.mongodb.net
+2026-07-28 16:37:05 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-28 16:58:20 [ERROR] MongoServerSelectionError: Socket 'secureConnect' timed out after 30123ms (connectTimeoutMS: 30000)
+    at Topology.selectServer (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\sdam\topology.js:348:38)
+    at async executeOperationWithRetries (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\operations\execute_operation.js:157:18)
+    at async executeOperation (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async FindCursor._initialize (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\abstract_cursor.js:620:27)
+    at async FindCursor.fetchBatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\abstract_cursor.js:654:13)
+    at async FindCursor.next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\abstract_cursor.js:326:17)
+    at async Collection.findOne (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\query.js:2773:15)
+    at async maybeTracedQueryExec (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\query.js:4801:65)
+2026-07-28 16:58:20 [HTTP] ::1 - - [28/Jul/2026:15:58:20 +0000] "GET /api/v1/dashboard HTTP/1.1" 500 - "-" "PostmanRuntime/7.55.1"
+2026-07-28 17:00:04 [HTTP] ::1 - - [28/Jul/2026:16:00:04 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 - "-" "PostmanRuntime/7.55.1"

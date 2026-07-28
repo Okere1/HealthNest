@@ -300,3 +300,37 @@
     at async Collection.findOne (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\collection.js:313:24)
     at async model.Query._findOne (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\query.js:2773:15)
     at async maybeTracedQueryExec (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\query.js:4801:65)
+2026-07-28 14:31:32 [ERROR] ValidationError: Validation failed
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\validate.js:20:12
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-07-28 14:32:06 [ERROR] NotFoundError: Reminder not found.
+    at findUserOwnedResource (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\utils\resourceOwnership.js:24:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.triggerReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.service.js:119:20)
+    at async triggerReminder (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\modules\reminders\reminder.controller.js:104:22)
+2026-07-28 16:19:30 [ERROR] MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\connection.js:1180:11)
+    at NativeConnection.openUri (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\connection.js:1111:11)
+    at async connectDatabase (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\database\connection.js:7:5)
+    at async startServer (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\server.js:8:5)
+2026-07-28 16:23:55 [ERROR] MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\connection.js:1180:11)
+    at NativeConnection.openUri (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\connection.js:1111:11)
+    at async connectDatabase (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\database\connection.js:7:5)
+    at async startServer (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\server.js:8:5)
+2026-07-28 16:32:35 [ERROR] MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\connection.js:1180:11)
+    at NativeConnection.openUri (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\connection.js:1111:11)
+    at async connectDatabase (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\database\connection.js:7:5)
+    at async startServer (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\server.js:8:5)
+2026-07-28 16:58:20 [ERROR] MongoServerSelectionError: Socket 'secureConnect' timed out after 30123ms (connectTimeoutMS: 30000)
+    at Topology.selectServer (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\sdam\topology.js:348:38)
+    at async executeOperationWithRetries (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\operations\execute_operation.js:157:18)
+    at async executeOperation (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\operations\execute_operation.js:83:16)
+    at async FindCursor._initialize (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\abstract_cursor.js:620:27)
+    at async FindCursor.fetchBatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\abstract_cursor.js:654:13)
+    at async FindCursor.next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\cursor\abstract_cursor.js:326:17)
+    at async Collection.findOne (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\query.js:2773:15)
+    at async maybeTracedQueryExec (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\query.js:4801:65)
