@@ -3760,3 +3760,69 @@ API Version : v1
     at async maybeTracedQueryExec (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\mongoose\lib\query.js:4801:65)
 2026-07-28 16:58:20 [HTTP] ::1 - - [28/Jul/2026:15:58:20 +0000] "GET /api/v1/dashboard HTTP/1.1" 500 - "-" "PostmanRuntime/7.55.1"
 2026-07-28 17:00:04 [HTTP] ::1 - - [28/Jul/2026:16:00:04 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 - "-" "PostmanRuntime/7.55.1"
+2026-07-28 17:03:08 [INFO] MongoDB connection established.
+2026-07-28 17:03:08 [INFO] Database: healthnest
+2026-07-28 17:03:08 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 17:03:08 [INFO] MongoDB connected successfully.
+2026-07-28 17:03:08 [INFO] Database: healthnest
+2026-07-28 17:03:08 [INFO] Host: cluster0-shard-00-01.8emvu.mongodb.net
+2026-07-28 17:03:08 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-28 17:05:48 [HTTP] ::1 - - [28/Jul/2026:16:05:48 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 - "-" "PostmanRuntime/7.55.1"
+2026-07-28 17:08:51 [WARN] MongoDB disconnected.
+2026-07-28 17:10:28 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-28 17:10:28 [HTTP] ::1 - - [28/Jul/2026:16:10:28 +0000] "GET /api/v1/dashboard HTTP/1.1" 401 140 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+2026-07-28 17:10:28 [HTTP] ::1 - - [28/Jul/2026:16:10:28 +0000] "GET /favicon.ico HTTP/1.1" 404 130 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+2026-07-29 10:18:31 [INFO] MongoDB connection established.
+2026-07-29 10:18:31 [INFO] Database: healthnest
+2026-07-29 10:18:31 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-29 10:18:31 [INFO] MongoDB connected successfully.
+2026-07-29 10:18:31 [INFO] Database: healthnest
+2026-07-29 10:18:31 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-29 10:18:31 [INFO] 
+=========================================
+Personal Health Companion API Started
+=========================================
+Environment : development
+Port        : 5000
+API Version : v1
+=========================================
+
+2026-07-29 10:19:07 [ERROR] UnauthorizedError: Authorization header is required.
+    at authenticate (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\src\common\middlewares\authenticate.js:16:13)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:295:15
+    at processParams (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:582:12)
+    at next (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:291:5)
+    at Function.handle (C:\Users\promise.okere\OneDrive - Interswitch Limited\BACKEND TRAINING\CAPSTONE PROJECT\HealthNest\node_modules\router\index.js:186:3)
+2026-07-29 10:19:07 [HTTP] ::1 - - [29/Jul/2026:09:19:07 +0000] "GET /api/v1/dashboard HTTP/1.1" 401 140 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+2026-07-29 10:19:20 [HTTP] ::1 - - [29/Jul/2026:09:19:20 +0000] "GET /favicon.ico HTTP/1.1" 404 130 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+2026-07-29 10:30:38 [WARN] MongoDB disconnected.
+2026-07-29 10:30:39 [INFO] MongoDB connection established.
+2026-07-29 10:30:39 [INFO] Database: healthnest
+2026-07-29 10:30:39 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net
+2026-07-29 17:24:47 [WARN] MongoDB disconnected.
+2026-07-29 17:24:47 [INFO] MongoDB connection established.
+2026-07-29 17:24:47 [INFO] Database: healthnest
+2026-07-29 17:24:47 [INFO] Host: cluster0-shard-00-00.8emvu.mongodb.net

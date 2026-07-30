@@ -1,217 +1,394 @@
-# 🏥 HealthNest Backend
+# 🩺 HealthNest Backend API
 
-A production-ready RESTful backend powering **HealthNest**, a Personal Health Companion designed to help users manage medications, appointments, health records, reminders, and daily wellness activities.
+![Node.js](https://img.shields.io/badge/Node.js-24.x-green)
+![Express](https://img.shields.io/badge/Express-5.x-black)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
+![License](https://img.shields.io/badge/License-Capstone-blue)
+![Status](https://img.shields.io/badge/Status-In%20Development-orange)
 
-The project is being developed using modern backend engineering practices with a focus on clean architecture, security, scalability, maintainability, and developer experience.
+HealthNest is a Personal Health Companion designed to help users manage their daily health routines, medications, appointments, reminders, and health records from a single platform.
 
----
-
-# 📖 Table of Contents
-
-- Overview
-- Problem Statement
-- Solution
-- Features
-- Technology Stack
-- Project Architecture
-- Folder Structure
-- Getting Started
-- Environment Variables
-- Running the Project
-- API Documentation
-- Engineering Principles
-- Roadmap
-- Contributors
+This repository contains the backend REST API powering the HealthNest mobile application.
 
 ---
 
-# Overview
+---
 
-HealthNest is a digital personal health companion that helps users stay consistent with their healthcare routines.
+# 🩺 HealthNest
 
-The backend exposes secure REST APIs that power the mobile application, handling user authentication, medication management, appointment scheduling, reminders, notifications, health records, and future AI-powered health assistance.
+### Personal Health Companion Backend API
+
+> Helping users stay healthy through medication management, appointment scheduling, reminders, and personalized health tracking.
 
 ---
 
-# Problem Statement
+# 🚀 Features
 
-Many people struggle to consistently manage their personal health because they:
-
-- Forget to take medications.
-- Miss medical appointments.
-- Lose track of health records.
-- Have difficulty organizing daily health routines.
-- Lack personalized guidance for managing their wellbeing.
-
-These challenges often reduce treatment adherence and negatively affect long-term health outcomes.
-
----
-
-# Solution
-
-HealthNest provides a centralized platform that enables users to:
-
-- Create and manage personal health accounts.
-- Schedule medications and receive reminders.
-- Manage medical appointments.
-- Track personal health history.
-- Receive intelligent health assistance.
-- Stay organized through a personalized health dashboard.
-
----
-
-# Current Features
-
-## Authentication
+## 🔐 Authentication
 
 - User Registration
-- User Login
+- Login
 - JWT Authentication
-- Refresh Token Support
-- Password Hashing using bcrypt
 - Protected Routes
 
-## Backend Infrastructure
+---
 
-- Feature-based Architecture
-- Centralized Configuration Management
-- Environment Validation
-- Standardized API Responses
-- Global Error Handling
-- Request Validation using Joi
-- Winston Logging
-- Morgan HTTP Logging
-- MongoDB Integration
-- Express 5
+## 💊 Medication Management
+
+- Create Medication
+- View Medications
+- Update Medication
+- Delete Medication
 
 ---
 
-# Technology Stack
+## 📅 Appointment Management
 
-| Layer             | Technology            |
-| ----------------- | --------------------- |
-| Runtime           | Node.js               |
-| Framework         | Express 5             |
-| Database          | MongoDB               |
-| ODM               | Mongoose              |
-| Authentication    | JWT                   |
-| Validation        | Joi                   |
-| Logging           | Winston + Morgan      |
-| Password Security | bcrypt                |
-| Documentation     | Swagger (In Progress) |
-| Testing           | Jest + Supertest      |
+- Create Appointments
+- View Appointments
+- Update Appointments
+- Delete Appointments
 
 ---
 
-# Project Architecture
+## ⏰ Reminder Management
 
-The project follows a feature-based modular architecture.
-
-```
-Request
-    │
-    ▼
-Express
-    │
-    ▼
-Global Middleware
-    │
-    ▼
-Route
-    │
-    ▼
-Validation
-    │
-    ▼
-Controller
-    │
-    ▼
-Service
-    │
-    ▼
-Database
-    │
-    ▼
-API Response
-    │
-    ▼
-Client
-```
-
-Business logic is isolated from routing and infrastructure to improve maintainability and scalability.
+- Medication Reminders
+- Appointment Reminders
+- Trigger Notifications
+- Mark Medication as Taken
 
 ---
 
-# Folder Structure
+## 📊 Dashboard
 
-```
-src/
+- Summary Statistics
+- Today's Reminders
+- Upcoming Appointment
+- Recent Activities
+- Medication Adherence
+
+---
+
+# 🛠 Technology Stack
+
+| Technology    | Purpose               |
+| ------------- | --------------------- |
+| Node.js       | Runtime Environment   |
+| Express.js    | REST API Framework    |
+| MongoDB Atlas | Database              |
+| Mongoose      | ODM                   |
+| JWT           | Authentication        |
+| Joi           | Request Validation    |
+| Bcrypt        | Password Hashing      |
+| Winston       | Logging               |
+| Morgan        | HTTP Logging          |
+| Helmet        | Security Headers      |
+| CORS          | Cross-Origin Requests |
+| Compression   | Response Compression  |
+
+---
+
+# 📁 Project Structure
+
+```text
+src
 │
-├── common/
-├── config/
-├── database/
-├── docs/
-├── modules/
-├── routes/
+├── common
+│   ├── constants
+│   ├── errors
+│   ├── middlewares
+│   ├── utils
+│
+├── config
+│
+├── database
+│
+├── docs
+│
+├── modules
+│   ├── auth
+│   ├── users
+│   ├── medications
+│   ├── appointments
+│   ├── reminders
+│   └── dashboard
+│
+├── routes
+│
 ├── app.js
 └── server.js
 ```
 
-Each feature is implemented as an independent module containing its own routes, controller, service, validation, model, mapper, constants, and supporting files.
+---
+
+# 🏗 Architecture
+
+HealthNest follows a layered architecture.
+
+```text
+Routes
+    │
+    ▼
+Controllers
+    │
+    ▼
+Services
+    │
+    ▼
+Repositories
+    │
+    ▼
+MongoDB Models
+```
+
+This separation of concerns improves maintainability, testing, and scalability.
 
 ---
 
-# Getting Started
+# 🔐 Authentication
 
-## Clone the Repository
+The API uses JSON Web Tokens (JWT).
 
-```bash
-git clone <repository-url>
-cd HealthNest
+Protected endpoints require:
+
+```
+Authorization: Bearer <access_token>
 ```
 
-## Install Dependencies
+Passwords are securely hashed using Bcrypt before storage.
 
-```bash
-npm install
+## 🏗 System Architecture
+
+```mermaid
+flowchart LR
+
+Mobile["React Native Mobile App"]
+
+API["Express REST API"]
+
+Auth["Authentication"]
+
+Medication["Medication Module"]
+
+Appointment["Appointment Module"]
+
+Reminder["Reminder Module"]
+
+Dashboard["Dashboard Module"]
+
+Mongo["MongoDB Atlas"]
+
+Mobile --> API
+
+API --> Auth
+API --> Medication
+API --> Appointment
+API --> Reminder
+API --> Dashboard
+
+Auth --> Mongo
+Medication --> Mongo
+Appointment --> Mongo
+Reminder --> Mongo
+Dashboard --> Mongo
 ```
 
-## Configure Environment Variables
+## 🔄 Request Lifecycle
 
-Create a `.env` file in the project root.
+```mermaid
+sequenceDiagram
 
-Example:
+participant Mobile
+
+participant API
+
+participant Controller
+
+participant Service
+
+participant Repository
+
+participant MongoDB
+
+Mobile->>API: HTTP Request
+
+API->>Controller: Route
+
+Controller->>Service: Business Logic
+
+Service->>Repository: Database Operation
+
+Repository->>MongoDB: Query
+
+MongoDB-->>Repository: Result
+
+Repository-->>Service: Data
+
+Service-->>Controller: Response
+
+Controller-->>Mobile: JSON Response
+```
+
+## 🗄 Database Collections
+
+| Collection   | Description             |
+| ------------ | ----------------------- |
+| Users        | Stores registered users |
+| Medications  | Medication schedules    |
+| Appointments | Medical appointments    |
+| Reminders    | Notification reminders  |
+
+## Responses
+
+Success:
+
+{
+"success": true,
+"message": "Medication created successfully.",
+"data": {},
+"errors": null,
+"meta": null,
+"timestamp": "2026-07-29T10:30:00.000Z"
+}
+
+Error:
+
+{
+"success": false,
+"message": "Medication not found.",
+"data": null,
+"errors": {},
+"meta": null,
+"timestamp": "2026-07-29T10:30:00.000Z"
+}
+
+## 📐 API Design Principles
+
+HealthNest follows RESTful API principles:
+
+- Layered Architecture
+- Separation of Concerns
+- Repository Pattern
+- JWT Authentication
+- Standardized API Responses
+- Consistent Error Handling
+- Request Validation
+- Pagination Support
+- Resource Ownership Validation
+
+---
+
+# 📌 API Modules
+
+## Authentication
+
+| Method | Endpoint    |
+| ------ | ----------- |
+| POST   | /auth/login |
+| GET    | /auth/me    |
+
+---
+
+## Users
+
+| Method | Endpoint        |
+| ------ | --------------- |
+| POST   | /users/register |
+
+---
+
+## Medications
+
+| Method | Endpoint         |
+| ------ | ---------------- |
+| POST   | /medications     |
+| GET    | /medications     |
+| GET    | /medications/:id |
+| PATCH  | /medications/:id |
+| DELETE | /medications/:id |
+
+---
+
+## Appointments
+
+| Method | Endpoint          |
+| ------ | ----------------- |
+| POST   | /appointments     |
+| GET    | /appointments     |
+| GET    | /appointments/:id |
+| PATCH  | /appointments/:id |
+| DELETE | /appointments/:id |
+
+---
+
+## Reminders
+
+| Method | Endpoint               |
+| ------ | ---------------------- |
+| POST   | /reminders             |
+| GET    | /reminders             |
+| GET    | /reminders/:id         |
+| PATCH  | /reminders/:id         |
+| DELETE | /reminders/:id         |
+| POST   | /reminders/:id/trigger |
+| PATCH  | /reminders/:id/taken   |
+
+---
+
+## Dashboard
+
+| Method | Endpoint   |
+| ------ | ---------- |
+| GET    | /dashboard |
+
+---
+
+# ⚙ Environment Variables
+
+Create a `.env` file.
 
 ```env
 NODE_ENV=development
+
 PORT=5000
 
-MONGO_URI=
+MONGO_URI=<MongoDB Connection String>
 
-JWT_SECRET=
+JWT_SECRET=<JWT Secret>
 
 JWT_EXPIRES_IN=1d
 
-REFRESH_TOKEN_SECRET=
+REFRESH_TOKEN_SECRET=<Refresh Secret>
 
 REFRESH_TOKEN_EXPIRES_IN=7d
-
-CLIENT_URL=http://localhost:3000
 
 LOG_LEVEL=info
 ```
 
 ---
 
-# Running the Project
+# ▶ Running the Project
 
-Development
+Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/HealthNest.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run in development
 
 ```bash
 npm run dev
 ```
 
-Production
+Run in production
 
 ```bash
 npm start
@@ -219,70 +396,50 @@ npm start
 
 ---
 
-# API Documentation
+# 📖 API Documentation
 
-Project documentation is available inside the `docs/` directory.
+Swagger/OpenAPI documentation is available at:
 
-| Document                | Description                |
-| ----------------------- | -------------------------- |
-| API_GUIDE.md            | API Reference              |
-| AUTHENTICATION.md       | Authentication Flow        |
-| ARCHITECTURE.md         | Backend Architecture       |
-| DATABASE.md             | Database Design            |
-| ERROR_HANDLING.md       | Error Handling Strategy    |
-| FRONTEND_INTEGRATION.md | Frontend Integration Guide |
-| LOGGING.md              | Logging Strategy           |
-| PROJECT_STRUCTURE.md    | Project Organization       |
-| SECURITY.md             | Security Practices         |
-
-Swagger documentation will be available in a future release.
+```
+/api/docs
+```
 
 ---
 
-# Engineering Principles
+# 🌐 Deployment
 
-This project follows several engineering principles, including:
+Current deployment stack:
 
-- Feature-based modular architecture
-- Separation of concerns
-- Single responsibility principle
-- Centralized configuration
-- Consistent API contracts
-- Defensive programming
-- Secure authentication practices
-- Structured logging
-- Reusable validation
-- Production-ready error handling
+- Render
+- MongoDB Atlas
 
 ---
 
-# Roadmap
+# 🚧 Future Enhancements
 
-Upcoming features include:
-
-- Medication Management
-- Appointment Scheduling
+- Caregiver Management
 - Health Tracker
-- Notification Service
-- AI Health Assistant
-- Email Verification
-- Password Reset
-- Role-Based Access Control
-- Audit Logging
-- Automated Testing
-- Docker Support
-- CI/CD Pipeline
+- Push Notification Integration
+- AI Medication Assistant
+- Health Reports
+- Email Notifications
+- SMS Notifications
+- Wearable Device Integration
 
 ---
 
-# Contributors
+# 👨‍💻 Contributors
 
-Backend Engineering Lead
+Backend Team
 
 - Promise Okere
 
+Frontend Team
+
+- Capstone Frontend Team
+
 ---
 
-# License
+# 📄 License
 
-This project is developed as part of the HealthNest Personal Health Companion initiative.
+This project was developed as part of the Software Engineering Capstone Project.
